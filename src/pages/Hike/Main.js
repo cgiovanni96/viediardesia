@@ -4,13 +4,12 @@ import { ArrowLeftCircle as BackIcon } from "@styled-icons/feather/ArrowLeftCirc
 import { Mountains as DistanceIcon } from "@styled-icons/foundation/Mountains";
 import { Clock as ClockIcon } from "@styled-icons/fa-regular/Clock";
 import { Link, useParams } from "react-router-dom";
+import { up } from "styled-breakpoints";
 
 import Text from "../../components/Text";
 import { LocaleContext } from "../../App";
 import getHikeInfo from "../../utils/hooks/getHikeInfo";
-
-const lang = navigator.language;
-console.log("lang", lang);
+import { FormattedMessage } from "react-intl";
 
 const Main = () => {
   const { hike } = useParams();
@@ -28,7 +27,6 @@ const Main = () => {
   useEffect(() => {
     const md = async () => {
       const { content, metadata } = await getHikeInfo(hike, locale.id);
-      console.log("md", metadata);
       setText(content);
       setMetadata(metadata);
     };
@@ -57,21 +55,37 @@ const Main = () => {
         <Side>
           <Back>
             <Link to="/">
-              <BackIcon size={30} /> <span>Indietro</span>
+              <BackIcon size={30} />{" "}
+              <span>
+                <FormattedMessage id="back" defaultMessage="Indietro" />
+              </span>
             </Link>
           </Back>
           <Info>
             <Title>INFO</Title>
             <List>
               <Element>
-                <span>Durata: </span>
+                <span>
+                  <FormattedMessage id="duration" defaultMessage="Durata" />:{" "}
+                </span>
                 {metadata.duration}
               </Element>
               <Element>
-                <span>Dislivello: </span> {metadata.altitude || ""}
+                <span>
+                  <FormattedMessage id="altitude" defaultMessage="Dislivello" />
+                  :{" "}
+                </span>
+                {metadata.altitude || ""}
               </Element>
               <Element>
-                <span>Difficolta: </span> {metadata.difficulty || ""}
+                <span>
+                  <FormattedMessage
+                    id="difficulty"
+                    defaultMessage="Difficoltà"
+                  />
+                  :{" "}
+                </span>{" "}
+                {metadata.difficulty || ""}
               </Element>
             </List>
           </Info>
@@ -91,7 +105,7 @@ const Base = styled.section`
 `;
 
 const Highlight = styled.div`
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   height: 110px;
   background: ${({ theme }) => theme.palette.gradient.main};
@@ -104,6 +118,10 @@ const Highlight = styled.div`
   color: ${({ theme }) => theme.palette.text.light};
   box-shadow: ${({ theme }) => theme.palette.shadow.gradient},
     inset 0 0 0 4px rgba(21, 111, 121, 0.3);
+
+  ${up("md")} {
+    width: 60%;
+  }
 `;
 
 const Name = styled.h2`
@@ -118,7 +136,6 @@ const Details = styled.div`
   display: flex;
   font-size: 14px;
   color: ${({ theme }) => theme.palette.text.medium};
-  /* font-weight: ${({ theme }) => theme.typo.weight.light}; */
 `;
 
 const DetailsEl = styled.div`
@@ -144,8 +161,8 @@ const Article = styled.div`
   box-shadow: ${({ theme }) => theme.palette.shadow.default};
   & > p {
     margin-bottom: 1rem;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 22px;
   }
 
   & img {
@@ -168,16 +185,16 @@ const Side = styled.div`
 `;
 
 const Back = styled.div`
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   border-radius: 8px;
   box-shadow: ${({ theme }) => theme.palette.shadow.gradient};
   background: ${({ theme }) => theme.palette.gradient.light};
   text-align: center;
   color: ${({ theme }) => theme.palette.text.light};
-  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 25px;
 
   & span {
     margin-left: 0.2rem;
@@ -202,12 +219,17 @@ const Title = styled.h2`
 
 const List = styled.ul`
   list-style: none;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 1rem;
 `;
 
 const Element = styled.li`
   margin-bottom: 0.5rem;
+  font-size: 18px;
+  /* 
+  & * {
+    font-size: inherit;
+  } */
 
   & > span {
     font-weight: ${({ theme }) => theme.typo.weight.bold};

@@ -1,4 +1,8 @@
 {
   "who": "ABOUT",
-  "list": "HIKES LIST"
+  "list": "HIKES LIST",
+  "duration": "Duration",
+  "altitude": "Altitude",
+  "difficulty": "Difficulty",
+  "back": "Back"
 }

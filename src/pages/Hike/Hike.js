@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { up } from "styled-breakpoints";
 
 import Footer from "./Footer";
 import Main from "./Main";
@@ -29,6 +30,11 @@ const Wrapper = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  width: 80%;
   margin: 0 auto;
+  padding: 0 1em;
+  width: 100%;
+  ${up("lg")} {
+    width: 80%;
+    padding: none;
+  }
 `;

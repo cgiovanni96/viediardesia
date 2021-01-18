@@ -1,4 +1,8 @@
 {
   "who": "CHI SIAMO",
-  "list": "LISTA ITINERARI"
+  "list": "LISTA ITINERARI",
+  "duration": "Durata",
+  "altitude": "Dislivello",
+  "difficulty": "Difficoltà",
+  "back": "Indietro"
 }

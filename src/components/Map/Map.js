@@ -7,7 +7,7 @@ import mapboxgl from "mapbox-gl"; // This is a dependency of react-map-gl even i
 import "mapbox-gl/dist/mapbox-gl.css";
 import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
-import santaGiulia from "../../paths/santaGiulia";
+import paths from "../../paths/paths";
 import center from "../../utils/constants/center";
 import lineColor from "../../utils/constants/lineColor";
 import mapStyles from "../../utils/constants/mapStyles";
@@ -35,11 +35,11 @@ const Map = () => {
     color: lineColor.default,
   });
 
-  const [markers, setMarkers] = useState({});
+  const [popup, setPopup] = useState({});
 
   const onLayerClick = (e) => {
     setColor({ color: lineColor.active });
-    setMarkers({
+    setPopup({
       longitude: e.lngLat.lng,
       latitude: e.lngLat.lat,
       id: e.features[0].source,
@@ -48,7 +48,7 @@ const Map = () => {
 
   const onMapClick = () => {
     setColor({ color: lineColor.default });
-    setMarkers({});
+    setPopup({});
   };
 
   return (
@@ -68,18 +68,17 @@ const Map = () => {
         <NavigationControl showCompass showZoom position="bottom-right" />
         <GeolocateControl position="bottom-right" />
 
-        <Path
-          path={santaGiulia}
-          color={color.color}
-          onLayerClick={onLayerClick}
-        />
-
-        {!isEmpty(markers) && (
-          <Popup
-            lat={markers.latitude}
-            lng={markers.longitude}
-            id={markers.id}
+        {paths.map((path) => (
+          <Path
+            key={path.id}
+            path={path}
+            color={color.color}
+            onLayerClick={onLayerClick}
           />
+        ))}
+
+        {!isEmpty(popup) && (
+          <Popup lat={popup.latitude} lng={popup.longitude} id={popup.id} />
         )}
       </MapGL>
     </>

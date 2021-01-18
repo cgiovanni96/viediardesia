@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { FormattedMessage } from "react-intl";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { LocaleContext } from "../../App";
 import locales from "../../languages/locales";
@@ -9,12 +10,13 @@ const Navbar = () => {
 
   const langSwitch = (id) => {
     localesContext.setLocale(locales[id]);
-    console.log(localesContext);
   };
 
   return (
     <Base>
-      <Title>ARDESIA</Title>
+      <Title>
+        <Link to="/">ARDESIA</Link>
+      </Title>
       <Navigation>
         <NavEl>
           <FormattedMessage id="who" defaultMessage="CHI SIAMO" />

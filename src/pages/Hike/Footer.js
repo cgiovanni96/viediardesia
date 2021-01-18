@@ -10,6 +10,6 @@ export default Footer;
 const Base = styled.div`
   margin-top: 5rem;
   height: 100px;
-  background: #1c1c1c;
+  background: #eaeaea;
   color: ${({ theme }) => theme.palette.text.light};
 `;
