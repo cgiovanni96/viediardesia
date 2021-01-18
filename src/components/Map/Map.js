@@ -1,9 +1,7 @@
 //eslint-disable
 import MapGL, {
   GeolocateControl,
-  Layer,
   NavigationControl,
-  Source,
 } from "@urbica/react-map-gl";
 import mapboxgl from "mapbox-gl"; // This is a dependency of react-map-gl even if you didn't explicitly install it
 import "mapbox-gl/dist/mapbox-gl.css";
@@ -17,6 +15,7 @@ import token from "../../utils/constants/token";
 import isEmpty from "../../utils/isEmpty";
 import "./Map.css";
 import MapNavbar from "./MapNavbar";
+import Path from "./Path";
 import Popup from "./Popup";
 // eslint-disable-next-line import/no-webpack-loader-syntax
 mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
@@ -69,13 +68,10 @@ const Map = () => {
         <NavigationControl showCompass showZoom position="bottom-right" />
         <GeolocateControl position="bottom-right" />
 
-        <Source id={santaGiulia.id} type="geojson" data={santaGiulia.path} />
-        <Layer
-          id={santaGiulia.id}
-          type="line"
-          source={santaGiulia.id}
-          paint={{ "line-color": `${color.color}`, "line-width": 6 }}
-          onClick={onLayerClick}
+        <Path
+          path={santaGiulia}
+          color={color.color}
+          onLayerClick={onLayerClick}
         />
 
         {!isEmpty(markers) && (
