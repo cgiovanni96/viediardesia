@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { LocaleContext } from "../../App";
 import locales from "../../languages/locales";
+import { up } from "styled-breakpoints";
 
 const Navbar = () => {
   const localesContext = useContext(LocaleContext);
@@ -58,9 +59,13 @@ const Navigation = styled.nav`
 `;
 
 const NavEl = styled.div`
+  display: none;
   margin-left: 2rem;
   font-weight: ${(props) =>
     props.bold ? props.theme.typo.weight.bold : props.theme.typo.weight.light};
+  ${up("md")} {
+    display: flex;
+  }
 `;
 
 const LanguageSwitcher = styled.div`

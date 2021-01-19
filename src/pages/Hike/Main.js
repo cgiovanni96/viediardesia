@@ -5,6 +5,7 @@ import { Mountains as DistanceIcon } from "@styled-icons/foundation/Mountains";
 import { Clock as ClockIcon } from "@styled-icons/fa-regular/Clock";
 import { Link, useParams } from "react-router-dom";
 import { up } from "styled-breakpoints";
+import "react-medium-image-zoom/dist/styles.css";
 
 import Text from "../../components/Text";
 import { LocaleContext } from "../../App";
@@ -98,10 +99,13 @@ const Main = () => {
 export default Main;
 
 const Base = styled.section`
-  margin-top: 2rem;
   flex: 1;
   display: flex;
   flex-direction: column;
+
+  ${up("md")} {
+    margin-top: 2rem;
+  }
 `;
 
 const Highlight = styled.div`
@@ -151,37 +155,69 @@ const Container = styled.div`
   margin-top: 2rem;
   display: flex;
   font-family: ${({ theme }) => theme.typo.family.main};
+  flex-direction: column;
+
+  ${up("lg")} {
+    flex-direction: row;
+  }
 `;
 
 const Article = styled.div`
-  width: 80%;
+  order: 2;
+  width: 100%;
   background: ${({ theme }) => theme.palette.accent.light};
   padding: 2rem 3rem;
   border-radius: 16px;
   box-shadow: ${({ theme }) => theme.palette.shadow.default};
+
+  ${up("lg")} {
+    width: 80%;
+    order: 1;
+  }
+
   & > p {
     margin-bottom: 1rem;
     font-size: 18px;
     line-height: 22px;
+
+    & > * {
+      float: left;
+      margin-right: 1em;
+      width: 100%;
+
+      ${up("lg")} {
+        width: 60%;
+      }
+    }
   }
 
   & img {
-    width: 50%;
-    height: 100px;
     object-fit: cover;
     float: left;
-    margin-right: 1rem;
-    border-radius: 8px;
+    margin: 1em 0;
+    height: 150px;
+    width: 100%;
 
-    &::after {
-      float: none;
+    ${up("md")} {
+      margin-right: 1rem;
+      border-radius: 8px;
+
+      &::after {
+        float: none;
+      }
     }
   }
 `;
 
 const Side = styled.div`
-  margin-left: 1rem;
   flex: 1;
+  margin-bottom: 2rem;
+
+  ${up("lg")} {
+    margin-left: 1rem;
+    margin-bottom: none;
+    order: 2;
+  }
 `;
 
 const Back = styled.div`
