@@ -9,14 +9,15 @@ import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import paths from "../../paths/paths";
 import center from "../../utils/constants/center";
-import lineColor from "../../utils/constants/lineColor";
 import mapStyles from "../../utils/constants/mapStyles";
 import token from "../../utils/constants/token";
 import isEmpty from "../../utils/isEmpty";
-import "./Map.css";
 import MapNavbar from "./MapNavbar";
-import Path from "./Path";
+import Paths from "./Paths/Paths";
 import Popup from "./Popup";
+
+//need this statement due to a bug with mapbox-gl's version 2.0
+//which resulted in a conflict with webpack while processing the build for production
 // eslint-disable-next-line import/no-webpack-loader-syntax
 mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
 
@@ -31,14 +32,12 @@ const Map = () => {
     zoom: isDesktop ? 14.5 : 13,
   });
 
-  const [color, setColor] = useState({
-    color: lineColor.default,
-  });
+  const [isMapSelected, setIsMapSelected] = useState(true);
 
   const [popup, setPopup] = useState({});
 
   const onLayerClick = (e) => {
-    setColor({ color: lineColor.active });
+    setIsMapSelected(false);
     setPopup({
       longitude: e.lngLat.lng,
       latitude: e.lngLat.lat,
@@ -47,7 +46,7 @@ const Map = () => {
   };
 
   const onMapClick = () => {
-    setColor({ color: lineColor.default });
+    setIsMapSelected(true);
     setPopup({});
   };
 
@@ -68,14 +67,11 @@ const Map = () => {
         <NavigationControl showCompass showZoom position="bottom-right" />
         <GeolocateControl position="bottom-right" />
 
-        {paths.map((path) => (
-          <Path
-            key={path.id}
-            path={path}
-            color={color.color}
-            onLayerClick={onLayerClick}
-          />
-        ))}
+        <Paths
+          paths={paths}
+          onLayerClick={onLayerClick}
+          isMapSelected={isMapSelected}
+        />
 
         {!isEmpty(popup) && (
           <Popup lat={popup.latitude} lng={popup.longitude} id={popup.id} />

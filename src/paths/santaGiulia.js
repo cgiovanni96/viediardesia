@@ -166,6 +166,7 @@ const geoPath = {
 
 const santaGiulia = {
   id: "santagiulia",
+  color: "#eb4034",
   path: geoPath,
 };
 

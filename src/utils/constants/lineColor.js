@@ -1,6 +1,3 @@
-const lineColor = {
-  default: "#16747D",
-  active: "black",
-};
+const lineColor = "#16747D";
 
 export default lineColor;
