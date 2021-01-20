@@ -2,13 +2,11 @@
 import MapGL, {
   GeolocateControl,
   NavigationControl,
-  Popup as PopupGL,
 } from "@urbica/react-map-gl";
 import mapboxgl from "mapbox-gl"; // This is a dependency of react-map-gl even if you didn't explicitly install it
 import "mapbox-gl/dist/mapbox-gl.css";
 import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
-import markerProva from "../../paths/marker-prova";
 import paths from "../../paths/paths";
 import center from "../../utils/constants/center";
 import mapStyles from "../../utils/constants/mapStyles";
@@ -17,9 +15,6 @@ import isEmpty from "../../utils/isEmpty";
 import MapNavbar from "./MapNavbar";
 import Paths from "./Paths/Paths";
 import Popup from "./Popup";
-import Image from "../Image";
-import styled from "styled-components";
-import Marker from "../Marker";
 
 //need this statement due to a bug with mapbox-gl's version 2.0
 //which resulted in a conflict with webpack while processing the build for production
@@ -39,8 +34,6 @@ const Map = () => {
 
   const [isMapSelected, setIsMapSelected] = useState(true);
 
-  const [isMarkerSelected, setIsMarkerSelected] = useState(false);
-
   const [popup, setPopup] = useState({});
 
   const onLayerClick = (e) => {
@@ -52,16 +45,9 @@ const Map = () => {
     });
   };
 
-  const onMarkerClick = () => {
-    console.log("Marker");
-    setIsMapSelected(false);
-    setIsMarkerSelected(true);
-  };
-
-  const onMapClick = (deleteMarker = false) => {
+  const onMapClick = () => {
     console.log("Map");
     setIsMapSelected(true);
-    if (deleteMarker) setIsMarkerSelected(false);
     setPopup({});
   };
 
@@ -89,12 +75,6 @@ const Map = () => {
         {!isEmpty(popup) && (
           <Popup lat={popup.latitude} lng={popup.longitude} id={popup.id} />
         )}
-
-        {/* <Marker
-          onMarkerClick={onMarkerClick}
-          onMapClick={onMapClick}
-          isMarkerSelected={isMarkerSelected}
-        /> */}
       </MapGL>
     </>
   );
