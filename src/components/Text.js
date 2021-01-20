@@ -5,7 +5,6 @@ import Image from "./Image";
 
 const renderers = {
   image: ({ src, alt }) => {
-    console.log("renderer src", src);
     return <Image src={src} alt={alt} />;
   },
 };

@@ -3,7 +3,6 @@ import Viewer from "react-viewer";
 
 const Image = ({ alt, src }) => {
   const [visible, setVisible] = useState(false);
-  console.log("Image src", src);
   return (
     <span>
       <img

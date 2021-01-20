@@ -1,16 +1,16 @@
-import React, { useContext, useEffect, useState } from "react";
-import styled from "styled-components";
+import { Clock as ClockIcon } from "@styled-icons/fa-regular/Clock";
 import { ArrowLeftCircle as BackIcon } from "@styled-icons/feather/ArrowLeftCircle";
 import { Mountains as DistanceIcon } from "@styled-icons/foundation/Mountains";
-import { Clock as ClockIcon } from "@styled-icons/fa-regular/Clock";
+import React, { useContext, useEffect, useState } from "react";
+import { FormattedMessage } from "react-intl";
+import "react-medium-image-zoom/dist/styles.css";
 import { Link, useParams } from "react-router-dom";
 import { up } from "styled-breakpoints";
-import "react-medium-image-zoom/dist/styles.css";
-
-import Text from "../../components/Text";
+import styled from "styled-components";
 import { LocaleContext } from "../../App";
+import Text from "../../components/Text";
 import getHikeInfo from "../../utils/hooks/getHikeInfo";
-import { FormattedMessage } from "react-intl";
+import Gallery from "../../components/Gallery";
 
 const Main = () => {
   const { hike } = useParams();
@@ -92,6 +92,8 @@ const Main = () => {
           </Info>
         </Side>
       </Container>
+
+      <Gallery />
     </Base>
   );
 };

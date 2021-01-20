@@ -1,3 +1,5 @@
+import defaultColor from "../utils/constants/defaultColor";
+
 const geoPath = {
   type: "FeatureCollection",
   features: [
@@ -2110,7 +2112,7 @@ const geoPath = {
 
 const santAnna = {
   id: "santanna",
-  color: "#cc34eb",
+  color: defaultColor,
   path: geoPath,
 };
 

@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import lineColor from "../../../utils/constants/lineColor";
 
 const Path = ({ path, onLayerClick, isMapSelected }) => {
-  console.log("Rendering", path);
   const [pathColor, setPathColor] = useState(path.color);
 
   useEffect(() => {

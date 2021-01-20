@@ -1,3 +1,5 @@
+import defaultColor from "../utils/constants/defaultColor";
+
 const geoPath = {
   type: "FeatureCollection",
   features: [
@@ -883,7 +885,7 @@ const geoPath = {
 
 const circolare = {
   id: "circolare",
-  color: "#ebbd34",
+  color: defaultColor,
   path: geoPath,
 };
 
