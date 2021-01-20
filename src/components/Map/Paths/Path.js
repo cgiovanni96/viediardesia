@@ -7,7 +7,7 @@ const Path = ({ path, onLayerClick, isMapSelected }) => {
 
   useEffect(() => {
     if (isMapSelected) setPathColor(path.color);
-  }, [isMapSelected]);
+  }, [isMapSelected, path.color]);
 
   const onPathClick = (e) => {
     onLayerClick(e);
