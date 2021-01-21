@@ -6,8 +6,6 @@ import { LocaleContext } from "../../App";
 import getHikeInfo from "../../utils/hooks/getHikeInfo";
 
 const Popup = ({ lat, lng, id }) => {
-  console.log("lat", lat);
-  console.log("lng", lng);
   const { locale } = useContext(LocaleContext);
   // const path = `/${id}`;
   const [info, setInfo] = useState({

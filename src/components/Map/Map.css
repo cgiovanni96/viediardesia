@@ -1,35 +1,5 @@
-.marker-btn {
+.point {
   background: none;
   border: none;
-}
-
-.marker-btn span {
-  font-size: 18px;
-}
-
-.marker-btn img {
-  width: 20px;
-  height: 20px;
-}
-
-.layer {
   cursor: pointer;
-}
-
-.hike-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.hike-detail span {
-  font-weight: bold;
-  font-size: 10px;
-}
-
-.hike-detail h2 {
-  font-size: 14px;
-}
-
-.hike-detail h3 {
-  font-size: 12px;
 }

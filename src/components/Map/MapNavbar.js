@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import LanguageSwitcher from "../LanguageSwitcher";
 
 const MapNavbar = () => {
   return (
@@ -8,6 +9,7 @@ const MapNavbar = () => {
       <Navigation>
         <Link>CHI SIAMO</Link>
         <Link>TUTTE LE VIE</Link>
+        <LanguageSwitcher />
       </Navigation>
     </Nav>
   );
@@ -39,7 +41,9 @@ const Title = styled.h1`
 `;
 
 const Navigation = styled.div`
+  display: flex;
   font-size: 18px;
+  align-items: center;
 `;
 
 const Link = styled.span`

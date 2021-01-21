@@ -12,10 +12,11 @@ import center from "../../utils/constants/center";
 import mapStyles from "../../utils/constants/mapStyles";
 import token from "../../utils/constants/token";
 import isEmpty from "../../utils/isEmpty";
+import InterestingPoints from "./InterestingPoint/InterestingPoints";
 import MapNavbar from "./MapNavbar";
 import Paths from "./Paths/Paths";
 import Popup from "./Popup";
-
+import "./Map.css";
 //need this statement due to a bug with mapbox-gl's version 2.0
 //which resulted in a conflict with webpack while processing the build for production
 // eslint-disable-next-line import/no-webpack-loader-syntax
@@ -46,7 +47,6 @@ const Map = () => {
   };
 
   const onMapClick = () => {
-    console.log("Map");
     setIsMapSelected(true);
     setPopup({});
   };
@@ -75,6 +75,8 @@ const Map = () => {
         {!isEmpty(popup) && (
           <Popup lat={popup.latitude} lng={popup.longitude} id={popup.id} />
         )}
+
+        <InterestingPoints />
       </MapGL>
     </>
   );

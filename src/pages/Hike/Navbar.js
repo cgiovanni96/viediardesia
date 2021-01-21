@@ -1,18 +1,11 @@
-import React, { useContext } from "react";
+import React from "react";
 import { FormattedMessage } from "react-intl";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { LocaleContext } from "../../App";
-import locales from "../../languages/locales";
 import { up } from "styled-breakpoints";
+import LanguageSwitcher from "../../components/LanguageSwitcher";
 
 const Navbar = () => {
-  const localesContext = useContext(LocaleContext);
-
-  const langSwitch = (id) => {
-    localesContext.setLocale(locales[id]);
-  };
-
   return (
     <Base>
       <Title>
@@ -26,10 +19,7 @@ const Navbar = () => {
           <FormattedMessage id="list" defaultMessage="LISTA ITINERARI" />
         </NavEl>
 
-        <LanguageSwitcher>
-          <Lang onClick={() => langSwitch("it")}>IT</Lang>
-          <Lang onClick={() => langSwitch("eng")}>ENG</Lang>
-        </LanguageSwitcher>
+        <LanguageSwitcher />
       </Navigation>
     </Base>
   );
@@ -66,14 +56,4 @@ const NavEl = styled.div`
   ${up("md")} {
     display: flex;
   }
-`;
-
-const LanguageSwitcher = styled.div`
-  display: flex;
-  margin-left: 2rem;
-`;
-
-const Lang = styled.div`
-  margin-left: 0.5rem;
-  cursor: pointer;
 `;
