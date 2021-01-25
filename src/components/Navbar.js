@@ -3,7 +3,7 @@ import { FormattedMessage } from "react-intl";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { up } from "styled-breakpoints";
-import LanguageSwitcher from "../../components/LanguageSwitcher";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navbar = () => {
   return (
@@ -13,7 +13,9 @@ const Navbar = () => {
       </Title>
       <Navigation>
         <NavEl>
-          <FormattedMessage id="who" defaultMessage="CHI SIAMO" />
+          <Link to="/about">
+            <FormattedMessage id="who" defaultMessage="CHI SIAMO" />
+          </Link>
         </NavEl>
         <NavEl>
           <FormattedMessage id="list" defaultMessage="LISTA ITINERARI" />

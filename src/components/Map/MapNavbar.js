@@ -1,14 +1,22 @@
 import React from "react";
+import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import LanguageSwitcher from "../LanguageSwitcher";
+import { Link as RouterLink } from "react-router-dom";
 
 const MapNavbar = () => {
   return (
     <Nav className="nav">
       <Title>VIE</Title>
       <Navigation>
-        <Link>CHI SIAMO</Link>
-        <Link>TUTTE LE VIE</Link>
+        <Link>
+          <RouterLink to="/about">
+            <FormattedMessage id="who" defaultMessage="CHI SIAMO" />
+          </RouterLink>
+        </Link>
+        <Link>
+          <FormattedMessage id="list" defaultMessage="LISTA ITINERARI" />
+        </Link>
         <LanguageSwitcher />
       </Navigation>
     </Nav>

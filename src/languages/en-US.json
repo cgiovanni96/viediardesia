@@ -4,5 +4,6 @@
   "duration": "Duration",
   "altitude": "Altitude",
   "difficulty": "Difficulty",
-  "back": "Back"
+  "back": "Back",
+  "whosection": "This map represents the degree thesis of Gabriele Ghisleni, a student of the Master's programme 'Valorization of Territories and Sustainable Tourism' at the University of Genoa. The project stems from the discovery of the path network on the hill of Santa Giulia in Lavagna, on which the student carried out a first Workshop with Prof. Renata Allegri (Examples and Experiences of Sustainable Tourism a.y. 2019/2020).\n\n  Having walked those paths and having met those who actively take care of their survival, prompted a more in-depth study. This gave rise to the idea of building a digitalised map, which was constructed by walking the entire network of paths, with geographical coordinates provided by GPS tracking. The map of the Pietre Parlanti association was used as a paper reference map.\n\n The computer part was created by the developer Giovanni Costa. \n\n  Another intention is to structure and offer an in-depth multimedia and interactive tool, to collaborate in the valorisation of this territory, to offer a tool that can be freely used by sustainable tourists and to provide local governance with a series of data that can be used in various ways, also for future prospects."
 }

@@ -5,6 +5,7 @@ import styled from "styled-components";
 import { LocaleContext } from "../../../App";
 import points from "../../../points/points";
 import Image from "../../Image";
+import Text from "../../Text";
 import "../Map.css";
 
 const InterestingPoints = () => {
@@ -49,7 +50,7 @@ const InterestingPoints = () => {
         >
           <SelectedPoint>
             <Image src={selectedPoint.image} alt={selectedPoint.text.it} />
-            <p>{selectedPoint.text[locale.id]}</p>
+            <Text document={selectedPoint.text[locale.id]} />
           </SelectedPoint>
         </Popup>
       ) : null}

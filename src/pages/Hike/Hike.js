@@ -4,7 +4,7 @@ import { up } from "styled-breakpoints";
 
 import Footer from "./Footer";
 import Main from "./Main";
-import Navbar from "./Navbar";
+import Navbar from "../../components/Navbar";
 
 const Hike = () => {
   return (

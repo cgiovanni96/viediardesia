@@ -4,5 +4,6 @@
   "duration": "Durata",
   "altitude": "Dislivello",
   "difficulty": "Difficoltà",
-  "back": "Indietro"
+  "back": "Indietro",
+  "whosection": "Questa mappa rappresenta la tesi di laurea di Gabriele Ghisleni, studente della magistrale 'Valorizzazione dei territori e Turismi Sostenibili' dell'Università di Genova. Il progetto nasce dalla scoperta, della rete sentieristica della collina di Santa Giulia a Lavagna, sulla quale lo studente ha svolto un primo Laboratorio con la prof.ssa Renata Allegri (Esempi ed Esperienze di Sostenibilità Turistica a.a.2019/2020).\n\nAver percorso quei sentieri e avere incontrato chi se ne occupa attivamente per curarne la sopravvivenza, ha spinto ad affrontare uno studio più approfondito. E’ nata così l’idea di costruire una carta digitalizzata che è stata costruita percorrendo a piedi tutta le rete sentieristica, in essa sono riportate le coordinate geografiche tramite la tracciatura GPS. Come mappa cartacea di riferimento è stata presa in considerazione quella dell'associazione Pietre Parlanti. \n\nLa parte informatica è stata realizzata dal programmatore Giovanni Costa.  \n\n  Altra intenzione  è quella di strutturare e offrire uno strumento multimediale e interattivo approfondito, per collaborare alla valorizzazione di questo territorio, per offrire strumento che fosse di libero utilizzo per il turista sostenibile e per dotare la governance locale di una serie di dati utilizzabili in vario modo, anche per prospettive future."
 }
