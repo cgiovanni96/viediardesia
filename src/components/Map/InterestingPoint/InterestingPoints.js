@@ -12,8 +12,6 @@ const InterestingPoints = () => {
   const [selectedPoint, setSelectedPoint] = useState(null);
   const { locale } = useContext(LocaleContext);
 
-  console.log("Locale", locale);
-
   return (
     <>
       {points.map((pointOfInterest, id) => (
@@ -49,7 +47,7 @@ const InterestingPoints = () => {
           }}
         >
           <SelectedPoint>
-            <Image src={selectedPoint.image} alt={selectedPoint.text.it} />
+            <Image src={selectedPoint.image} alt={selectedPoint.text.name} />
             <Text document={selectedPoint.text[locale.id]} />
           </SelectedPoint>
         </Popup>

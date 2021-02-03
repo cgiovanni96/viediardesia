@@ -19,6 +19,7 @@ const Path = ({ path, onLayerClick, isMapSelected }) => {
       <Source id={path.id} type="geojson" data={path.path} />
       <Layer
         id={path.id}
+        before={path.before}
         type="line"
         source={path.id}
         paint={{ "line-color": `${pathColor}`, "line-width": 6 }}
