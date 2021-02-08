@@ -17,6 +17,8 @@ import MapNavbar from "./MapNavbar";
 import Paths from "./Paths/Paths";
 import Popup from "./Popup";
 import "./Map.css";
+import Zone from "./Zone/Zone";
+import zones from "../../zones";
 //need this statement due to a bug with mapbox-gl's version 2.0
 //which resulted in a conflict with webpack while processing the build for production
 // eslint-disable-next-line import/no-webpack-loader-syntax
@@ -76,6 +78,9 @@ const Map = () => {
           <Popup lat={popup.latitude} lng={popup.longitude} id={popup.id} />
         )}
 
+        {zones.map((zone) => {
+          return <Zone key={zone.id} zone={zone} zoom={viewport.zoom} />;
+        })}
         <InterestingPoints />
       </MapGL>
     </>

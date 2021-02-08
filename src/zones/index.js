@@ -2,7 +2,7 @@ const zones = [
   {
     id: "santanna",
     name: "Sant'Anna",
-    position: { latitude: 40, longitude: 9 },
+    position: { latitude: 44.2883112, longitude: 9.3835085 },
     text: {
       it:
         "Hospitale che risale al medioevo (XII-XIII sec.) costruito per il ricovero dei viandanti che percorrevano la via Romana, che qui doveva sorpassare le Rocche, scoscese e pericolose. La posizione e la funzione è analoga alle Grazie, fra Chiavari e Zoagli, hospitale medievale oggi Santuario.\n\nPer raggiungere Sant’Anna (nominata come SIC, Sito di Importanza Comunitaria) una passeggiata sale da Cavi borgo, giunge ai ruderi ancora visibili, con resti che risalgono al XIV e al XVI  secolo, per scendere a Sestri Levante in una passeggiata di incomparabile bellezza.\n\nUna leggenda romantica racconta di Anna, fanciulla figlia primogenita di un conte di Lavagna che trascorreva le sue giornate a scrutare il mare dall’alto, speranzosa di rivedere il suo amato tornare dalla guerra. Ormai convinta che non sarebbe più tornato, decise di togliersi la vita buttandosi da quella sommità nel mare tempestoso. Quando il giovane tornò, non trovò ad aspettarlo la donna che amava e decise di seguirla togliendosi la vita nello stesso modo.",
@@ -13,7 +13,7 @@ const zones = [
   {
     id: "santagiulia",
     name: "Santa Giulia di Centaura",
-    position: { latitude: 40, longitude: 9 },
+    position: { latitude: 44.30301325575346, longitude: 9.372947216033936 },
     text: {
       it:
         "E’ la località più antica ed è rinomata per la posizione che domina tutto il Golfo del Tigullio, ammirabile dal piazzale della Chiesa (l’attuale edificio risale al 1600, ma è probabilmente costruito sull’antica cappella).\n\nDi particolare pregio il pavimento a risseu (rissolato), mosaico di sassi marini policromi, del piazzale della Chiesa.\n\nIl nome Centaura deriva da Centuri, località del Capo Corso (sull’isola che nelle giornate limpide si può da qui ammirare, insieme a Capraia e Gorgona), dove una giovane cristiana di nome Giulia fu martirizzata e crocifissa. \n\nLa leggenda racconta che le spoglie giunsero sulla spiaggia e furono conservate come reliquie nella Chiesa fino all’VIII secolo, quando furono trasportate nel noto monastero di Brescia a Lei dedicato. La tradizione religiosa si è mantenuta fino a un secolo fa, con il rito dei ceri illuminati che erano posti in mare sia a Cavi sia a Centuri e che le correnti marine trasportano sulle rispettive rive.\n\nNell’ XI secolo Santa Giulia apparteneva all’Arcivescovo di Genova, poi passò sotto il controllo dei Signori locali. La rete di sentieri qui percorribili è fitta e compete in bellezza con altri celebri percorsi liguri.",
@@ -24,7 +24,7 @@ const zones = [
   {
     id: "sorlana",
     name: "Sorlana",
-    position: { latitude: 40, longitude: 9 },
+    position: { latitude: 44.30871017100693, longitude: 9.387903213500977 },
     text: {
       it:
         "Sorlana (probabile toponimo prediale romano) è località già nominata nell’XI secolo come luogo di possessi ecclesiastici, gestita dai conti di Lavagna di cui segue le vicende storiche. \n\nL’antica Chiesa (di origine forse medievale, ma ricostruita nel 1600) sorge nei pressi di un castagneto, dove a metà di Agosto si svolge ogni anno una famosa sagra.",
@@ -35,7 +35,7 @@ const zones = [
   {
     id: "barassi",
     name: "Barassi",
-    position: { latitude: 40, longitude: 9 },
+    position: { latitude: 44.29951191224727, longitude: 9.388600587844849 },
     text: {
       it:
         "Barassi ha molte similitudini con Sorlana, ma si differenzia per la presenza dei monaci Olivetani di Sant’Eufemiano che ricostruirono la parrocchiale nel XVI secolo. \n\nCome per Sorlana, il territorio terrazzato è dedicato in prevalenza all’uliveto e in parte modesta a orti, nei versanti più esposti al sole. Il bosco ceduo occupa, invece, gli altri territori, a conferma di una comunità contadina che qui ha vissuto, traendo sostentamento dal lavoro di una difficile terra terrazzata.",
@@ -46,7 +46,7 @@ const zones = [
   {
     id: "cerreto",
     name: "Cerreto",
-    position: { latitude: 40, longitude: 9 },
+    position: { latitude: 44.297039346530454, longitude: 9.39258098602295 },
     text: {
       it:
         "Il toponimo (fitonimo) è riferito a un terreno sul quale si trovavano i Cerri (Quercus cerris), alberi tipici dei boschi submediterranei.\n\nUn’antica cava di ardesia si trova in questo territorio, a conferma che il nome Cavi potrebbe derivare dalla presenza di filoni ardesiaci sfruttati in epoche lontanissime. Mano a mano che questi si esaurivano, i cavatori risalivano il crinale, proseguendo con le estrazioni che giunsero fino sul monte San Giacomo. Solo al termine del XIX secolo, quando ormai anche queste cave non furono più redditizie, fu scoperto il ricco filone che da qui s’inoltrava lungo la Valle Fontanabuona e che è tutt’oggi utilizzato.",
@@ -57,7 +57,7 @@ const zones = [
   {
     id: "santeufemiano",
     name: "Sant'Eufemiano",
-    position: { latitude: 40, longitude: 9 },
+    position: { latitude: 44.300847975853955, longitude: 9.3967866897583 },
     text: {
       it:
         "A Sant’Eufemiano era presente un eremitaggio già citato nel XIII secolo, ma ricostruito nel tardo 1400. La chiesetta è dunque monastica e benedettina e del Santo di origine orientale si conservano le reliquie nella Prioria di Carasco.\n\nIl sito è raggiungibile da Cavi Borgo con la strada carrozzabile per Barassi e con una breve deviazione poco prima dell’abitato. Alla chiesetta di Sant’Eufemiano si arriva attraverso un bel sentiero ombroso nel bosco.",
@@ -68,7 +68,7 @@ const zones = [
   {
     id: "crocetta",
     name: "Crocetta",
-    position: { latitude: 40, longitude: 9 },
+    position: { latitude: 44.31153539018315, longitude: 9.382946491241455 },
     text: {
       it:
         "La località si trova sul crinale alle spalle della chiesa di Santa Giulia, da qui raggiungibile con un panoramico sentiero. \n\nIl toponimo indica l’antica presenza una croce da rogazione nel luogo dove si recavano le processioni, ma anche l’incrocio dei sentieri di crinale con quelli provenienti da Lavagna e da Cavi.",
