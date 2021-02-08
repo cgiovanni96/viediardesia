@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import isEqual from "lodash.isequal";
 
 import Path from "./Path";
 
 const Paths = ({ paths, onLayerClick, isMapSelected }) => {
+  const [currentlySelected, setCurrentlySelected] = useState(null);
+
   return (
     <>
       {paths.map((path) => {
@@ -11,6 +13,8 @@ const Paths = ({ paths, onLayerClick, isMapSelected }) => {
           <Path
             key={path.id}
             path={path}
+            before={currentlySelected !== path.id ? currentlySelected : null}
+            setSelected={setCurrentlySelected}
             onLayerClick={onLayerClick}
             isMapSelected={isMapSelected}
           />

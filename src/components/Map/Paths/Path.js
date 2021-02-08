@@ -2,7 +2,7 @@ import { Layer, Source } from "@urbica/react-map-gl";
 import React, { useEffect, useState } from "react";
 import lineColor from "../../../utils/constants/lineColor";
 
-const Path = ({ path, onLayerClick, isMapSelected }) => {
+const Path = ({ path, onLayerClick, isMapSelected, before, setSelected }) => {
   const [pathColor, setPathColor] = useState(path.color);
 
   useEffect(() => {
@@ -11,6 +11,7 @@ const Path = ({ path, onLayerClick, isMapSelected }) => {
 
   const onPathClick = (e) => {
     onLayerClick(e);
+    setSelected(path.id);
     setPathColor(lineColor);
   };
 
@@ -19,7 +20,7 @@ const Path = ({ path, onLayerClick, isMapSelected }) => {
       <Source id={path.id} type="geojson" data={path.path} />
       <Layer
         id={path.id}
-        before={path.before}
+        before={before}
         type="line"
         source={path.id}
         paint={{ "line-color": `${pathColor}`, "line-width": 6 }}
