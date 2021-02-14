@@ -1544,7 +1544,7 @@ const geoPath = {
 
 const capenardo = {
   id: "capenardo",
-  before: "marino",
+  before: "sentieri-lavagna",
   color: defaultColor,
   path: geoPath,
 };

@@ -24,11 +24,7 @@ const Zone = ({ zoom, zone }) => {
             e.stopPropagation();
           }}
         >
-          {zoom < 15 ? (
-            <ZoneIcon size={32} color={"white"} />
-          ) : (
-            <div>{zone.name}</div>
-          )}
+          <Name>{zone.name} </Name>
         </button>
       </Marker>
 
@@ -63,4 +59,10 @@ const SelectedPoint = styled.div`
   align-items: center;
   text-align: center;
   margin-top: 1em;
+`;
+
+const Name = styled.h2`
+  font-size: 1.2rem;
+  color: #275ab3;
+  font-weight: bold;
 `;

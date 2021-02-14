@@ -168,6 +168,7 @@ const geoPath = {
 
 const santaGiulia = {
   id: "santagiulia",
+  before: "capenardo",
   color: defaultColor,
   path: geoPath,
 };

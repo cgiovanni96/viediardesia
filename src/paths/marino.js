@@ -945,7 +945,7 @@ const geoPath = {
 
 const marino = {
   id: "marino",
-  before: "capenardo",
+  before: "sentieri-lavagna",
   color: defaultColor,
   path: geoPath,
 };

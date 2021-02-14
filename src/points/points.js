@@ -174,25 +174,192 @@ const points = [
     },
   },
   {
-    name: "sanpietroapostolo",
-    image: "",
-    position: { latitude: 44.299449, longitude: 9.397654 },
-    text: {
-      it:
-        "Nella località di Barassi fu costruita nel 1660 dai Padri Olivetani di Quarto dei Mille e in origine dedicata a san Eufemiano. ",
-      eng:
-        "The church of St. Peter the Apostle is located in Barassi and was built by the Olivetan monks from Quarto dei Mille in 1660; it was originally dedicated to St. Euphemius.",
-    },
-  },
-  {
     name: "sorlana",
     image: "./points/sorlana.jpeg",
+    icon: "church",
     position: { latitude: 44.309028, longitude: 9.387149 },
     text: {
       it:
         "Ricostruita più volte nel corso dei secoli ha origini antiche (X-XI secolo). Graziosa nelle sue linee architettoniche, ha un bel campanile con lesene e capitelli; all’interno conserva una tela e un Crocifisso di epoca rinascimentale e un interessante tabernacolo del XVIII secolo.",
       eng:
         "Rebuilt several times over the centuries, this church dates right back to the 10th-11th century. It has graceful architectural lines and a fine bell tower with pilasters and capitals; inside it houses a renaissance crucifix and canvas as well as an interesting 18th century tabernacle.",
+    },
+  },
+  {
+    name: "iat",
+    image: "",
+    icon: "turistic-office",
+    position: {
+      latitude: 44.30706142388217,
+      longitude: 9.344767928123474,
+    },
+    text: {
+      it:
+        "IAT ufficio turistico, tel 0185 395680\n\nOrario di apertura:\n\n \n\n martedì: 9,00-13,00 \n\n mercoledì: 16,00-19,00 \n\n giovedì: 9,00-13,00 \n\n venerdì: 9,00-13,00 \n\n sabato : 9,00-13,00 e 16,00-19,00 \n\n domenica: 9,00-12,00 Lunedì giorno di chiusura. \n\n",
+      eng:
+        "IAT turistic office, tel 0185 395680\n\nOpening hours:\n\n\n\nTuesday: 9,00-13,00\n\nWednesday: 16.00-19.00\n\nThursday: 9,00-13,00\n\nFriday: 9,00-13,00\n\nSaturday: 9,00-13,00 and 16,00-19,00\n\nSunday: 9,00-12,00 Monday closed\n\n",
+    },
+  },
+  {
+    name: "firefighter",
+    image: "",
+    icon: "firefighter",
+    position: { latitude: 44.31856392560122, longitude: 9.340842141629798 },
+    text: {
+      it: "vigili del fuoco",
+      eng: "firefighters",
+    },
+  },
+  {
+    name: "pharmacy1",
+    image: "",
+    icon: "pharmacy",
+    position: { latitude: 44.308115168654325, longitude: 9.3458354473114018 },
+    text: {
+      it: "Farmacia di Via Roma 104",
+      eng: "Pharmacy in Via Roma 104",
+    },
+  },
+  {
+    name: "pharmacy2",
+    image: "",
+    icon: "pharmacy",
+    position: { latitude: 44.3089, longitude: 9.3454 },
+    text: {
+      it: "Farmacia di Via Camillo Benso Cavour, 31",
+      eng: "Pharmacy in Via Camillo Benso Cavour, 31",
+    },
+  },
+  {
+    name: "pharmacy3",
+    image: "",
+    icon: "pharmacy",
+    position: { latitude: 44.30929461099419, longitude: 9.347250312566757 },
+    text: {
+      it: "Farmacia di Via Roma 36",
+      eng: "Pharmacy in Via Roma 36",
+    },
+  },
+  {
+    name: "pharmacy4",
+    image: "",
+    icon: "pharmacy",
+    position: { latitude: 44.31106133097159, longitude: 9.338464736938477 },
+    text: {
+      it: "Farmacia di Via Cesare Battisti, 12",
+      eng: "Pharmacy in Via Cesare Battisti, 12",
+    },
+  },
+
+  {
+    name: "hospital",
+    image: "",
+    icon: "hospital",
+    position: { latitude: 44.314901676223286, longitude: 9.348995089530945 },
+    text: {
+      it: "Ospedale di Lavagna",
+      eng: "Lavagna hospital",
+    },
+  },
+
+  {
+    name: "trainstation-1",
+    image: "",
+    icon: "train-station",
+    position: { latitude: 44.30560841509282, longitude: 9.346409440040588 },
+    text: {
+      it: "Stazione ferroviaria di Lavagna",
+      eng: "Lavagna train station",
+    },
+  },
+
+  {
+    name: "trainstation-2",
+    image: "",
+    icon: "train-station",
+    position: { latitude: 44.2934915703758, longitude: 9.372496604919434 },
+    text: {
+      it: "Stazione ferroviaria di Cavi",
+      eng: "Cavi train station",
+    },
+  },
+
+  {
+    name: "trainstation-3",
+    image: "",
+    icon: "train-station",
+    position: { latitude: 44.31509742921966, longitude: 9.322521686553955 },
+    text: {
+      it: "Stazione ferroviaria di Cavi",
+      eng: "Cavi train station",
+    },
+  },
+  {
+    name: "turisticharbour-1",
+    image: "",
+    icon: "harbour",
+    position: { latitude: 44.30714395830852, longitude: 9.338572025299072 },
+    text: {
+      it: "Porto turistico di Lavagna",
+      eng: "Lavagna turistic harbour",
+    },
+  },
+
+  {
+    name: "turisticharbour-2",
+    image: "",
+    icon: "harbour",
+    position: { latitude: 44.312894210753285, longitude: 9.322071075439453 },
+    text: {
+      it: "Porto turistico di Chiavari",
+      eng: "Chiavari turistic harbour",
+    },
+  },
+
+  {
+    name: "camping1",
+    img: "",
+    icon: "camping",
+    position: { latitude: 44.30224543514015, longitude: 9.359750747680664 },
+    text: {
+      it: "Camping",
+      eng: "Camping",
+    },
+  },
+
+  {
+    name: "camping2",
+    img: "",
+    icon: "camping",
+    position: { latitude: 44.30433388371788, longitude: 9.354987144470215 },
+    text: {
+      it: "Camping",
+      eng: "Camping",
+    },
+  },
+
+  {
+    name: "ardesia1",
+    img: "./points/ardesia1.jpeg",
+    icon: "gardening",
+    position: { latitude: 44.311922, longitude: 9.376393 },
+    text: {
+      it: "",
+      eng: "",
+    },
+  },
+
+  {
+    name: "cave2",
+    img: "./points/cave2.jpg",
+    icon: "cave",
+    position: {
+      latitude: 44.313504,
+      longitude: 9.376995,
+    },
+    text: {
+      it: "",
+      eng: "",
     },
   },
 ];

@@ -885,6 +885,7 @@ const geoPath = {
 
 const circolare = {
   id: "circolare",
+  before: "sentieri-lavagna",
   color: defaultColor,
   path: geoPath,
 };

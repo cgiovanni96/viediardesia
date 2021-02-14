@@ -28,7 +28,11 @@ const InterestingPoints = () => {
               e.stopPropagation();
             }}
           >
-            <HereIcon size={32} color={"white"} />
+            {pointOfInterest ? (
+              <img src={`./legend/${pointOfInterest.icon}.png`} alt={"ICONA"} />
+            ) : (
+              <HereIcon size={32} color={"white"} />
+            )}
           </button>
         </Marker>
       ))}
