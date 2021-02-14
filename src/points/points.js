@@ -2,6 +2,7 @@ const points = [
   {
     name: "sosta",
     image: "./points/sosta.jpeg",
+    icon: "gardening",
     position: { latitude: 44.3134, longitude: 9.385611 },
     text: {
       it:
@@ -13,6 +14,7 @@ const points = [
   {
     name: "teleferica",
     image: "./points/teleferica.jpeg",
+    icon: "gardening",
     position: { latitude: 44.306229, longitude: 9.400271 },
     text: {
       it:
@@ -24,6 +26,7 @@ const points = [
   {
     name: "vasca",
     image: "./points/vasca.jpeg",
+    icon: "gardening",
     position: { latitude: 44.308921, longitude: 9.396003 },
     text: {
       it:
@@ -34,6 +37,7 @@ const points = [
   {
     name: "cappella",
     image: "./points/cappella.jpeg",
+    icon: "church",
     position: { latitude: 44.299436, longitude: 9.397644 },
     text: {
       it:
@@ -45,6 +49,7 @@ const points = [
   {
     name: "memoriale",
     image: "./points/memoriale.jpeg",
+    icon: "resistance",
     position: { latitude: 44.29927, longitude: 9.390648 },
     text: {
       it:
@@ -56,6 +61,7 @@ const points = [
   {
     name: "cava",
     image: "./points/cava.jpeg",
+    icon: "cave",
     position: { latitude: 44.300798, longitude: 9.393876 },
     text: {
       it:
@@ -67,7 +73,8 @@ const points = [
 
   {
     name: "torredelborgo",
-    image: "",
+    image: "./points/torredelborgo.jpeg",
+    icon: "monument",
     position: { latitude: 44.30843862762209, longitude: 9.3457619403910529 },
     text: {
       it:
@@ -79,7 +86,11 @@ const points = [
 
   {
     name: "basilicasanstefano",
-    image: "",
+    image: [
+      "./points/basilicasanstefano-1.jpeg",
+      "./points/basilicasanstefano-2.jpeg",
+    ],
+    icon: "church",
     position: { latitude: 44.3099010130757, longitude: 9.347893787886575 },
     text: {
       it:
@@ -90,7 +101,8 @@ const points = [
   },
   {
     name: "biblioteca",
-    image: "",
+    image: "./points/biblioteca.jpg",
+    icon: "book",
     position: { latitude: 44.31015927425799, longitude: 9.345441504295946 },
     text: {
       it: "Biblioteca di Lavagna",
@@ -99,7 +111,8 @@ const points = [
   },
   {
     name: "oratorio",
-    image: "",
+    image: "./points/oratorio.jpg",
+    icon: "church",
     position: { latitude: 44.30969196240579, longitude: 9.346203308420225 },
     text: {
       it:
@@ -110,7 +123,11 @@ const points = [
   },
   {
     name: "museocasacarbone",
-    image: "",
+    image: [
+      "./points/museocasacarbone-1.jpg",
+      "./points/museocasacarbone-2.jpg",
+    ],
+    icon: "monument",
     position: { latitude: 44.3097669111973, longitude: 9.34509716424023 },
     text: {
       it:
@@ -121,7 +138,8 @@ const points = [
   },
   {
     name: "santuariodelcarmine",
-    image: "",
+    image: "./points/santuariodelcarmine.jpg",
+    icon: "church",
     position: { latitude: 44.309881924133689, longitude: 9.345795214176178 },
     text: {
       it:
@@ -132,7 +150,8 @@ const points = [
   },
   {
     name: "santagiuliacentaura",
-    image: "",
+    image: "./points/santagiuliacentaura.jpg",
+    icon: "church",
     position: { latitude: 44.303149542862876, longitude: 9.373008906841278 },
     text: {
       it:
@@ -144,7 +163,8 @@ const points = [
 
   {
     name: "immacolataconcezione",
-    image: "",
+    image: "./points/immacolataconcezione.jpg",
+    icon: "church",
     position: { latitude: 44.29752471622229, longitude: 9.37686941229584 },
     text: {
       it:

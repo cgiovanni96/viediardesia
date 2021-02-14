@@ -13,7 +13,7 @@ import mapStyles from "../../utils/constants/mapStyles";
 import token from "../../utils/constants/token";
 import isEmpty from "../../utils/isEmpty";
 import InterestingPoints from "./InterestingPoint/InterestingPoints";
-import MapNavbar from "./MapNavbar";
+import MapNavbar from "./MapNavbar/MapNavbar";
 import Paths from "./Paths/Paths";
 import Popup from "./Popup";
 import "./Map.css";
