@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import { Beenhere as ZoneIcon } from "@styled-icons/material-rounded/Beenhere";
 import { Marker, Popup } from "@urbica/react-map-gl";
 import "../Map.css";
 import { LocaleContext } from "../../../App";
