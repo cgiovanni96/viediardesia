@@ -51,7 +51,9 @@ const InterestingPoints = () => {
           }}
         >
           <SelectedPoint>
-            <Image src={selectedPoint.image} alt={selectedPoint.text.name} />
+            {selectedPoint.image ? (
+              <Image src={selectedPoint.image} alt={""} />
+            ) : null}
             <Text document={selectedPoint.text[locale.id]} />
           </SelectedPoint>
         </Popup>
