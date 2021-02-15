@@ -24,7 +24,6 @@ const Legend = () => {
       </Text>
       <Menu selected={selected}>
         {icons.map((icon) => {
-          console.log(icon);
           return (
             <Key key={icon.id}>
               <img src={icon.img} alt={icon.id} />

@@ -167,8 +167,10 @@ const resistance = [
     icon: "resistance",
     position: { latitude: 44.309266780650574, longitude: 9.344805479049683 },
     text: {
-      it: "A.N.P.I. LAVAGNA",
-      eng: "A.N.P.I. LAVAGNA",
+      it:
+        "A.N.P.I. LAVAGNA \n\n[Luoghi della Resistenza nel Tigullio](https://mapparesistenzatigullio.wordpress.com/)",
+      eng:
+        "A.N.P.I. LAVAGNA \n\n[Luoghi della Resistenza nel Tigullio](https://mapparesistenzatigullio.wordpress.com/)",
     },
   },
 

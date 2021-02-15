@@ -14,7 +14,7 @@ const flora = [
 
   {
     name: "flora2",
-    image: "./points/flora/flor2.jpeg",
+    image: "./points/flora/flora2.jpeg",
     icon: "flora",
     position: { latitude: 44.316540607627594, longitude: 9.341581463813782 },
     text: {
@@ -22,6 +22,19 @@ const flora = [
         "Iris pseudacorus\n\nè una pianta selvatica appartenente alla famiglia delle Iridaceae che fiorisce intorno ad aprile maggio.\n\nI fiori, raccolti in un'infiorescenza che termina con un fiore apicale, sono d'un giallo brillante. In Italia è comune in fossi, paludi, risaie, nella fascia planiziale.",
       eng:
         "Iris pseudacorus\n\nis a wild plant belonging to the Iridaceae family that flowers around April-May.\n\nThe flowers, which are gathered in an inflorescence ending in an apical flower, are bright yellow. In Italy it is common in ditches, marshes, rice fields, in the lowlands.",
+    },
+  },
+
+  {
+    name: "monumento1",
+    image: "./points/monumento1.jpeg",
+    icon: "flora",
+    position: { latitude: 44.302888, longitude: 9.37309 },
+    text: {
+      it:
+        "Abero Monumentale\n\nLeccio - Quercus ilex L.\n\npianta tutelata - Legge Regionale n.4/1999 art.13",
+      eng:
+        "Monumental tree\n\nHolm oak - Quercus ilex L.\n\nProtected plant - Regional Law n.4/1999 art.13",
     },
   },
 ];

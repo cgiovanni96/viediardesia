@@ -5,16 +5,14 @@ const cave = [
     icon: "cave",
     position: { latitude: 44.300798, longitude: 9.393876 },
     text: {
-      it:
-        "Una delle cave di ardesia meglio conservate di tutta la zona con i resti di un antico ponte in pietra.",
-      eng:
-        "One of the best preserved slate quarries in the area with the remains of an ancient stone bridge.",
+      it: "Cava Barassi 5",
+      eng: "Slate Quarry Barassi 5",
     },
   },
 
   {
     name: "cave2",
-    img: "./points/cave/cave2.jpg",
+    img: "./points/cave/cave2.jpeg",
     icon: "cave",
     position: {
       latitude: 44.313504,

@@ -11,16 +11,16 @@ const icons = [
     id: "church",
     img: "./legend/church.png",
     text: {
-      it: "chiesa, basilisca, duomo, cattedrale",
-      eng: "church, duomo, cathedral",
+      it: "chiesa, basilica, duomo",
+      eng: "church, duomo",
     },
   },
   {
     id: "chapel",
     img: "./legend/chapel-1.png",
     text: {
-      it: "cappella, edicola votativa, croce, campanile",
-      eng: "chapel, votive niche, cross, bell tower",
+      it: "edicola votativa, oratorio, croce",
+      eng: "votive niche, oratory, cross",
     },
   },
   {
@@ -31,6 +31,61 @@ const icons = [
       eng: "mill",
     },
   },
+
+  {
+    id: "drinking-water",
+    img: "./legend/drinking-water.png",
+    text: {
+      it: "fontanella con acqua potabile",
+      eng: "drinking water",
+    },
+  },
+
+  {
+    id: "cave",
+    img: "./legend/cave.png",
+    text: {
+      it: "cava di ardesia",
+      eng: "slate quarry",
+    },
+  },
+
+  {
+    id: "gardening",
+    img: "./legend/gardening.png",
+    text: {
+      it: "reperto rurale",
+      eng: "rural find",
+    },
+  },
+
+  {
+    id: "animal",
+    img: "./legend/animal.png",
+    text: {
+      it: "fauna",
+      eng: "fauna",
+    },
+  },
+
+  {
+    id: "flora",
+    img: "./legend/flora.png",
+    text: {
+      it: "flora",
+      eng: "flora",
+    },
+  },
+
+  {
+    id: "resistance",
+    img: "./legend/resistance.png",
+    text: {
+      it: "resistenza",
+      eng: "resistance",
+    },
+  },
+
   {
     id: "cicle-paths",
     img: "./legend/cicle-paths.png",
@@ -51,7 +106,7 @@ const icons = [
     id: "picnic",
     img: "./legend/picnic.png",
     text: {
-      it: "area attrezzata per pic-nic",
+      it: "area attrezzata",
       eng: "picnic area",
     },
   },
@@ -63,46 +118,32 @@ const icons = [
       eng: "camping",
     },
   },
-  {
-    id: "drinking-water",
-    img: "./legend/drinking-water.png",
-    text: {
-      it: "fontanella con acqua potabile",
-      eng: "drinking fountain",
-    },
-  },
+
   {
     id: "turistic-office",
     img: "./legend/turistic-office.png",
     text: {
-      it: "IAT ufficio turistico, tel 0185 395680",
-      eng: "IAT turistic office, tel 0185 395680",
+      it: "IAT ufficio turistico",
+      eng: "IAT turistic office",
     },
   },
   {
     id: "hospital",
     img: "./legend/hospital.png",
     text: {
-      it: "ospedale, numero unico di emergenza tel 112",
-      eng: "hospital, emergency number 112",
+      it: "ospedale",
+      eng: "hospital",
     },
   },
   {
     id: "red-cross",
     img: "./legend/red-cross.png",
     text: {
-      it: "croce rossa, comitato di Lavagna, tel 0185 321919",
-      eng: "red cross, Lavagna subdivision, tel 0185 321919",
+      it: "croce rossa",
+      eng: "red cross",
     },
   },
-  {
-    id: "green-cross",
-    img: "./legend/green-cross.png",
-    text: {
-      it: "croce verde chiavarese, tel 0185 322422",
-      eng: "green cross, Chiavari subdivision, tel 0185 322422",
-    },
-  },
+
   {
     id: "pharmacy",
     img: "./legend/pharmacy.png",
@@ -111,22 +152,16 @@ const icons = [
       eng: "pharmacy",
     },
   },
+
   {
     id: "firefighter",
     img: "./legend/firefighter.png",
     text: {
-      it: "vigili del fuoco, dist. prov. Chiavari, tel 0185 307777",
-      eng: "firefighters, Chiavari subdivision, tel 0185 307777",
+      it: "vigili del fuoco",
+      eng: "firefighters",
     },
   },
-  {
-    id: "highway",
-    img: "./legend/highway.png",
-    text: {
-      it: "autostrada A12 Genova - Livorno",
-      eng: "highway A12 Genova - Livorno",
-    },
-  },
+
   {
     id: "train-station",
     img: "./legend/train-station.png",
@@ -148,51 +183,7 @@ const icons = [
     img: "./legend/harbour.png",
     text: {
       it: "porto turistico",
-      eng: "harbour",
-    },
-  },
-
-  {
-    id: "animal",
-    img: "./legend/animal.png",
-    text: {
-      it: "animale",
-      eng: "animal",
-    },
-  },
-
-  {
-    id: "resistance",
-    img: "./legend/resistance.png",
-    text: {
-      it: "resistenza",
-      eng: "resistance",
-    },
-  },
-
-  {
-    id: "flora",
-    img: "./legend/flora.png",
-    text: {
-      it: "flora",
-      eng: "flora",
-    },
-  },
-
-  {
-    id: "gardening",
-    img: "./legend/gardening.png",
-    text: {
-      it: "reperto rurale",
-      eng: "rural find",
-    },
-  },
-  {
-    id: "cave",
-    img: "./legend/cave.png",
-    text: {
-      it: "cava",
-      eng: "cave",
+      eng: "marina",
     },
   },
 ];

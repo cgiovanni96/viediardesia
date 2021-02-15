@@ -1,0 +1,2945 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.381733, 44.312515, 0] },
+      "properties": { "name": "Cava Crocetta 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.373782, 44.334059, 0] },
+      "properties": { "name": "Cava Breccanecca 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.370007, 44.334143, 0] },
+      "properties": { "name": "Cava Breccanecca 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.385768, 44.316049, 0] },
+      "properties": { "name": "Cava Crocetta 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382971, 44.323648, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 27" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396701, 44.313914, 0] },
+      "properties": { "name": "Cava M. Capenardo 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397066, 44.312301, 0] },
+      "properties": { "name": "Cava M. Capenardo 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404054, 44.312753, 0] },
+      "properties": { "name": "Cava Barassi 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404189, 44.312366, 0] },
+      "properties": { "name": "Cava Barassi 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.400339, 44.31409, 0] },
+      "properties": { "name": "Cava M. Capenardo 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404832, 44.309167, 0] },
+      "properties": { "name": "Cava Barassi 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404033, 44.313402, 0] },
+      "properties": { "name": "Cava Barassi 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389731, 44.302738, 0] },
+      "properties": { "name": "Cava Barassi 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388781, 44.303209, 0] },
+      "properties": { "name": "Cava Barassi 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388034, 44.309739, 0] },
+      "properties": { "name": "Cava Sorlana 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389002, 44.302551, 0] },
+      "properties": { "name": "Cava Barassi 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395376, 44.301413, 0] },
+      "properties": { "name": "Cava Barassi 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.3968, 44.311788, 0] },
+      "properties": { "name": "Cava M. Capenardo 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397315, 44.319439, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.403952, 44.310728, 0] },
+      "properties": { "name": "Cava Barassi 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404449, 44.31006, 0] },
+      "properties": { "name": "Cava Barassi 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405632, 44.308831, 0] },
+      "properties": { "name": "Cava Barassi 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.40093, 44.314313, 0] },
+      "properties": { "name": "Cava M. Capenardo 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405282, 44.310876, 0] },
+      "properties": { "name": "Cava Barassi 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.394792, 44.313479, 0] },
+      "properties": { "name": "Cava M. Capenardo 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.399782, 44.313345, 0] },
+      "properties": { "name": "Cava M. Capenardo 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.406187, 44.307605, 0] },
+      "properties": { "name": "Cava Barassi 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.40513, 44.308833, 0] },
+      "properties": { "name": "Cava Barassi 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405649, 44.30776, 0] },
+      "properties": { "name": "Cava Barassi 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397487, 44.313263, 0] },
+      "properties": { "name": "Cava M. Capenardo 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.398954, 44.313239, 0] },
+      "properties": { "name": "Cava M. Capenardo 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397214, 44.313723, 0] },
+      "properties": { "name": "Cava M. Capenardo 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396016, 44.312719, 0] },
+      "properties": { "name": "Cava M. Capenardo 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.398112, 44.313017, 0] },
+      "properties": { "name": "Cava M. Capenardo 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395892, 44.312962, 0] },
+      "properties": { "name": "Cava M. Capenardo 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396394, 44.320433, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397433, 44.312723, 0] },
+      "properties": { "name": "Cava M. Capenardo 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397593, 44.312236, 0] },
+      "properties": { "name": "Cava M. Capenardo 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378167, 44.321593, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396164, 44.312295, 0] },
+      "properties": { "name": "Cava M. Capenardo 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396293, 44.314707, 0] },
+      "properties": { "name": "Cava M. Capenardo 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404017, 44.320136, 0] },
+      "properties": { "name": "Cava M. Capenardo 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.394209, 44.318118, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395207, 44.315539, 0] },
+      "properties": { "name": "Cava M. Capenardo 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.392463, 44.313991, 0] },
+      "properties": { "name": "Cava M. Capenardo 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396159, 44.320965, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395875, 44.316023, 0] },
+      "properties": { "name": "Cava M. Capenardo 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395945, 44.313385, 0] },
+      "properties": { "name": "Cava M. Capenardo 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.393899, 44.318578, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387442, 44.320761, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.403913, 44.31965, 0] },
+      "properties": { "name": "Cava M. Capenardo 23" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.39665, 44.319343, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396426, 44.31955, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387578, 44.318545, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404426, 44.319432, 0] },
+      "properties": { "name": "Cava M. Capenardo 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404599, 44.319144, 0] },
+      "properties": { "name": "Cava M. Capenardo 24" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387001, 44.320429, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397367, 44.319709, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397176, 44.321033, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397081, 44.31998, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389612, 44.318881, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396633, 44.320549, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396844, 44.320269, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389857, 44.319906, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389415, 44.319412, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386058, 44.314256, 0] },
+      "properties": { "name": "Cava Crocetta 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396674, 44.321044, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382639, 44.32273, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 29" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387395, 44.321274, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388697, 44.317056, 0] },
+      "properties": { "name": "Cava Crocetta 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387029, 44.320861, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.369545, 44.33454, 0] },
+      "properties": { "name": "Cava Breccanecca 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38295, 44.322351, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 30" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386882, 44.321321, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.379338, 44.322255, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 23" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389764, 44.317251, 0] },
+      "properties": { "name": "Cava Crocetta 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386419, 44.31574, 0] },
+      "properties": { "name": "Cava Crocetta 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38224, 44.322975, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 28" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.381141, 44.321871, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 25" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.381905, 44.323516, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 26" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378465, 44.323059, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 24" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38663, 44.321241, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382484, 44.321993, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 31" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383144, 44.321297, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 32" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38317, 44.311772, 0] },
+      "properties": { "name": "Cava Crocetta 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382201, 44.320949, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 33" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.3796, 44.318185, 0] },
+      "properties": { "name": "Cava Crocetta 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.380066, 44.318481, 0] },
+      "properties": { "name": "Cava Crocetta 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.392211, 44.317494, 0] },
+      "properties": { "name": "Cava Crocetta 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38442, 44.314982, 0] },
+      "properties": { "name": "Cava Crocetta 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383964, 44.312382, 0] },
+      "properties": { "name": "Cava Crocetta 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378974, 44.310499, 0] },
+      "properties": { "name": "Cava Crocetta 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.385256, 44.314331, 0] },
+      "properties": { "name": "Cava Crocetta 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375292, 44.311186, 0] },
+      "properties": { "name": "Cava Crocetta 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383768, 44.31502, 0] },
+      "properties": { "name": "Cava Crocetta 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.377593, 44.310215, 0] },
+      "properties": { "name": "Cava Crocetta 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383054, 44.311304, 0] },
+      "properties": { "name": "Cava Crocetta 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382018, 44.31002, 0] },
+      "properties": { "name": "Cava Crocetta 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375214, 44.304821, 0] },
+      "properties": { "name": "Cava Santa Giulia 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387165, 44.312992, 0] },
+      "properties": { "name": "Cava Crocetta 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375463, 44.306603, 0] },
+      "properties": { "name": "Cava Crocetta 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375035, 44.304335, 0] },
+      "properties": { "name": "Cava Santa Giulia 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376103, 44.304728, 0] },
+      "properties": { "name": "Cava Santa Giulia 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37577, 44.305494, 0] },
+      "properties": { "name": "Cava Santa Giulia 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376303, 44.308455, 0] },
+      "properties": { "name": "Cava Crocetta 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.360269, 44.335488, 0] },
+      "properties": { "name": "Cava Breccanecca 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37573, 44.307151, 0] },
+      "properties": { "name": "Cava Crocetta 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376907, 44.304861, 0] },
+      "properties": { "name": "Cava Santa Giulia 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.365461, 44.335382, 0] },
+      "properties": { "name": "Cava Breccanecca 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37827, 44.306305, 0] },
+      "properties": { "name": "Cava Santa Giulia 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.385768, 44.316049, 0] },
+      "properties": { "name": "Cava Crocetta 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382971, 44.323648, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 27" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396701, 44.313914, 0] },
+      "properties": { "name": "Cava M. Capenardo 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397066, 44.312301, 0] },
+      "properties": { "name": "Cava M. Capenardo 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404054, 44.312753, 0] },
+      "properties": { "name": "Cava Barassi 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404189, 44.312366, 0] },
+      "properties": { "name": "Cava Barassi 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.400339, 44.31409, 0] },
+      "properties": { "name": "Cava M. Capenardo 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.233106, 44.44759, 0] },
+      "properties": { "name": "Cava Moconesi 42" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404832, 44.309167, 0] },
+      "properties": { "name": "Cava Barassi 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404033, 44.313402, 0] },
+      "properties": { "name": "Cava Barassi 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389731, 44.302738, 0] },
+      "properties": { "name": "Cava Barassi 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388781, 44.303209, 0] },
+      "properties": { "name": "Cava Barassi 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388034, 44.309739, 0] },
+      "properties": { "name": "Cava Sorlana 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.228263, 44.446321, 0] },
+      "properties": { "name": "Cava Moconesi 41" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389002, 44.302551, 0] },
+      "properties": { "name": "Cava Barassi 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395376, 44.301413, 0] },
+      "properties": { "name": "Cava Barassi 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.3968, 44.311788, 0] },
+      "properties": { "name": "Cava M. Capenardo 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397315, 44.319439, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.403952, 44.310728, 0] },
+      "properties": { "name": "Cava Barassi 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404449, 44.31006, 0] },
+      "properties": { "name": "Cava Barassi 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405632, 44.308831, 0] },
+      "properties": { "name": "Cava Barassi 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.40093, 44.314313, 0] },
+      "properties": { "name": "Cava M. Capenardo 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405282, 44.310876, 0] },
+      "properties": { "name": "Cava Barassi 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.394792, 44.313479, 0] },
+      "properties": { "name": "Cava M. Capenardo 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.399782, 44.313345, 0] },
+      "properties": { "name": "Cava M. Capenardo 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.406187, 44.307605, 0] },
+      "properties": { "name": "Cava Barassi 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.40513, 44.308833, 0] },
+      "properties": { "name": "Cava Barassi 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405649, 44.30776, 0] },
+      "properties": { "name": "Cava Barassi 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397487, 44.313263, 0] },
+      "properties": { "name": "Cava M. Capenardo 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.398954, 44.313239, 0] },
+      "properties": { "name": "Cava M. Capenardo 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397214, 44.313723, 0] },
+      "properties": { "name": "Cava M. Capenardo 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396016, 44.312719, 0] },
+      "properties": { "name": "Cava M. Capenardo 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.398112, 44.313017, 0] },
+      "properties": { "name": "Cava M. Capenardo 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395892, 44.312962, 0] },
+      "properties": { "name": "Cava M. Capenardo 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396394, 44.320433, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397433, 44.312723, 0] },
+      "properties": { "name": "Cava M. Capenardo 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397593, 44.312236, 0] },
+      "properties": { "name": "Cava M. Capenardo 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378167, 44.321593, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396164, 44.312295, 0] },
+      "properties": { "name": "Cava M. Capenardo 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396293, 44.314707, 0] },
+      "properties": { "name": "Cava M. Capenardo 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404017, 44.320136, 0] },
+      "properties": { "name": "Cava M. Capenardo 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.394209, 44.318118, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395207, 44.315539, 0] },
+      "properties": { "name": "Cava M. Capenardo 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.392463, 44.313991, 0] },
+      "properties": { "name": "Cava M. Capenardo 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396159, 44.320965, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395875, 44.316023, 0] },
+      "properties": { "name": "Cava M. Capenardo 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395945, 44.313385, 0] },
+      "properties": { "name": "Cava M. Capenardo 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.393899, 44.318578, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387442, 44.320761, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.403913, 44.31965, 0] },
+      "properties": { "name": "Cava M. Capenardo 23" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.39665, 44.319343, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396426, 44.31955, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387578, 44.318545, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404426, 44.319432, 0] },
+      "properties": { "name": "Cava M. Capenardo 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404599, 44.319144, 0] },
+      "properties": { "name": "Cava M. Capenardo 24" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387001, 44.320429, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397367, 44.319709, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397176, 44.321033, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397081, 44.31998, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389612, 44.318881, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396633, 44.320549, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396844, 44.320269, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389857, 44.319906, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389415, 44.319412, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386058, 44.314256, 0] },
+      "properties": { "name": "Cava Crocetta 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396674, 44.321044, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382639, 44.32273, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 29" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387395, 44.321274, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388697, 44.317056, 0] },
+      "properties": { "name": "Cava Crocetta 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387029, 44.320861, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.369545, 44.33454, 0] },
+      "properties": { "name": "Cava Breccanecca 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38295, 44.322351, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 30" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386882, 44.321321, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.379338, 44.322255, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 23" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389764, 44.317251, 0] },
+      "properties": { "name": "Cava Crocetta 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386419, 44.31574, 0] },
+      "properties": { "name": "Cava Crocetta 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38224, 44.322975, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 28" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.381141, 44.321871, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 25" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.381905, 44.323516, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 26" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378465, 44.323059, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 24" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38663, 44.321241, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382484, 44.321993, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 31" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383144, 44.321297, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 32" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38317, 44.311772, 0] },
+      "properties": { "name": "Cava Crocetta 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382201, 44.320949, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 33" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.3796, 44.318185, 0] },
+      "properties": { "name": "Cava Crocetta 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.380066, 44.318481, 0] },
+      "properties": { "name": "Cava Crocetta 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.392211, 44.317494, 0] },
+      "properties": { "name": "Cava Crocetta 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38442, 44.314982, 0] },
+      "properties": { "name": "Cava Crocetta 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383964, 44.312382, 0] },
+      "properties": { "name": "Cava Crocetta 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378974, 44.310499, 0] },
+      "properties": { "name": "Cava Crocetta 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.385256, 44.314331, 0] },
+      "properties": { "name": "Cava Crocetta 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375292, 44.311186, 0] },
+      "properties": { "name": "Cava Crocetta 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383768, 44.31502, 0] },
+      "properties": { "name": "Cava Crocetta 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.377593, 44.310215, 0] },
+      "properties": { "name": "Cava Crocetta 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383054, 44.311304, 0] },
+      "properties": { "name": "Cava Crocetta 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382018, 44.31002, 0] },
+      "properties": { "name": "Cava Crocetta 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375214, 44.304821, 0] },
+      "properties": { "name": "Cava Santa Giulia 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387165, 44.312992, 0] },
+      "properties": { "name": "Cava Crocetta 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375463, 44.306603, 0] },
+      "properties": { "name": "Cava Crocetta 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375035, 44.304335, 0] },
+      "properties": { "name": "Cava Santa Giulia 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376103, 44.304728, 0] },
+      "properties": { "name": "Cava Santa Giulia 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37577, 44.305494, 0] },
+      "properties": { "name": "Cava Santa Giulia 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376303, 44.308455, 0] },
+      "properties": { "name": "Cava Crocetta 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.360269, 44.335488, 0] },
+      "properties": { "name": "Cava Breccanecca 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37573, 44.307151, 0] },
+      "properties": { "name": "Cava Crocetta 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376907, 44.304861, 0] },
+      "properties": { "name": "Cava Santa Giulia 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.365461, 44.335382, 0] },
+      "properties": { "name": "Cava Breccanecca 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37827, 44.306305, 0] },
+      "properties": { "name": "Cava Santa Giulia 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37406, 44.334319, 0] },
+      "properties": { "name": "Cava Breccanecca 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.372499, 44.32948, 0] },
+      "properties": { "name": "Cava Breccanecca 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.369465, 44.335684, 0] },
+      "properties": { "name": "Cava Breccanecca 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37171, 44.329771, 0] },
+      "properties": { "name": "Cava Breccanecca 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.369795, 44.334315, 0] },
+      "properties": { "name": "Cava Breccanecca 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.363038, 44.341052, 0] },
+      "properties": { "name": "Cava Monticelli 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.364315, 44.340688, 0] },
+      "properties": { "name": "Cava Monticelli 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.371103, 44.342908, 0] },
+      "properties": { "name": "Cava Monticelli 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.370892, 44.343215, 0] },
+      "properties": { "name": "Cava Monticelli4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.373782, 44.334059, 0] },
+      "properties": { "name": "Cava Breccanecca 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.370007, 44.334143, 0] },
+      "properties": { "name": "Cava Breccanecca 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.385768, 44.316049, 0] },
+      "properties": { "name": "Cava Crocetta 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382971, 44.323648, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 27" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396701, 44.313914, 0] },
+      "properties": { "name": "Cava M. Capenardo 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397066, 44.312301, 0] },
+      "properties": { "name": "Cava M. Capenardo 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404054, 44.312753, 0] },
+      "properties": { "name": "Cava Barassi 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404189, 44.312366, 0] },
+      "properties": { "name": "Cava Barassi 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.400339, 44.31409, 0] },
+      "properties": { "name": "Cava M. Capenardo 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.233106, 44.44759, 0] },
+      "properties": { "name": "Cava Moconesi 42" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404832, 44.309167, 0] },
+      "properties": { "name": "Cava Barassi 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404033, 44.313402, 0] },
+      "properties": { "name": "Cava Barassi 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389731, 44.302738, 0] },
+      "properties": { "name": "Cava Barassi 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388781, 44.303209, 0] },
+      "properties": { "name": "Cava Barassi 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388034, 44.309739, 0] },
+      "properties": { "name": "Cava Sorlana 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.228263, 44.446321, 0] },
+      "properties": { "name": "Cava Moconesi 41" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389002, 44.302551, 0] },
+      "properties": { "name": "Cava Barassi 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395376, 44.301413, 0] },
+      "properties": { "name": "Cava Barassi 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.3968, 44.311788, 0] },
+      "properties": { "name": "Cava M. Capenardo 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397315, 44.319439, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.403952, 44.310728, 0] },
+      "properties": { "name": "Cava Barassi 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404449, 44.31006, 0] },
+      "properties": { "name": "Cava Barassi 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405632, 44.308831, 0] },
+      "properties": { "name": "Cava Barassi 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.40093, 44.314313, 0] },
+      "properties": { "name": "Cava M. Capenardo 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405282, 44.310876, 0] },
+      "properties": { "name": "Cava Barassi 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.394792, 44.313479, 0] },
+      "properties": { "name": "Cava M. Capenardo 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.399782, 44.313345, 0] },
+      "properties": { "name": "Cava M. Capenardo 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.406187, 44.307605, 0] },
+      "properties": { "name": "Cava Barassi 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.40513, 44.308833, 0] },
+      "properties": { "name": "Cava Barassi 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405649, 44.30776, 0] },
+      "properties": { "name": "Cava Barassi 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397487, 44.313263, 0] },
+      "properties": { "name": "Cava M. Capenardo 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.398954, 44.313239, 0] },
+      "properties": { "name": "Cava M. Capenardo 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397214, 44.313723, 0] },
+      "properties": { "name": "Cava M. Capenardo 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396016, 44.312719, 0] },
+      "properties": { "name": "Cava M. Capenardo 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.398112, 44.313017, 0] },
+      "properties": { "name": "Cava M. Capenardo 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395892, 44.312962, 0] },
+      "properties": { "name": "Cava M. Capenardo 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396394, 44.320433, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397433, 44.312723, 0] },
+      "properties": { "name": "Cava M. Capenardo 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397593, 44.312236, 0] },
+      "properties": { "name": "Cava M. Capenardo 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378167, 44.321593, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396164, 44.312295, 0] },
+      "properties": { "name": "Cava M. Capenardo 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396293, 44.314707, 0] },
+      "properties": { "name": "Cava M. Capenardo 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404017, 44.320136, 0] },
+      "properties": { "name": "Cava M. Capenardo 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.394209, 44.318118, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395207, 44.315539, 0] },
+      "properties": { "name": "Cava M. Capenardo 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.392463, 44.313991, 0] },
+      "properties": { "name": "Cava M. Capenardo 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396159, 44.320965, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395875, 44.316023, 0] },
+      "properties": { "name": "Cava M. Capenardo 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395945, 44.313385, 0] },
+      "properties": { "name": "Cava M. Capenardo 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.393899, 44.318578, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387442, 44.320761, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.403913, 44.31965, 0] },
+      "properties": { "name": "Cava M. Capenardo 23" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.39665, 44.319343, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396426, 44.31955, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387578, 44.318545, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404426, 44.319432, 0] },
+      "properties": { "name": "Cava M. Capenardo 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404599, 44.319144, 0] },
+      "properties": { "name": "Cava M. Capenardo 24" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387001, 44.320429, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397367, 44.319709, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397176, 44.321033, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397081, 44.31998, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389612, 44.318881, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396633, 44.320549, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396844, 44.320269, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389857, 44.319906, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389415, 44.319412, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386058, 44.314256, 0] },
+      "properties": { "name": "Cava Crocetta 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396674, 44.321044, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382639, 44.32273, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 29" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387395, 44.321274, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388697, 44.317056, 0] },
+      "properties": { "name": "Cava Crocetta 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387029, 44.320861, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.369545, 44.33454, 0] },
+      "properties": { "name": "Cava Breccanecca 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38295, 44.322351, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 30" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386882, 44.321321, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.379338, 44.322255, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 23" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389764, 44.317251, 0] },
+      "properties": { "name": "Cava Crocetta 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386419, 44.31574, 0] },
+      "properties": { "name": "Cava Crocetta 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38224, 44.322975, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 28" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.381141, 44.321871, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 25" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.381905, 44.323516, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 26" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378465, 44.323059, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 24" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38663, 44.321241, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382484, 44.321993, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 31" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383144, 44.321297, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 32" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38317, 44.311772, 0] },
+      "properties": { "name": "Cava Crocetta 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382201, 44.320949, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 33" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.3796, 44.318185, 0] },
+      "properties": { "name": "Cava Crocetta 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.380066, 44.318481, 0] },
+      "properties": { "name": "Cava Crocetta 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.392211, 44.317494, 0] },
+      "properties": { "name": "Cava Crocetta 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38442, 44.314982, 0] },
+      "properties": { "name": "Cava Crocetta 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383964, 44.312382, 0] },
+      "properties": { "name": "Cava Crocetta 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378974, 44.310499, 0] },
+      "properties": { "name": "Cava Crocetta 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.385256, 44.314331, 0] },
+      "properties": { "name": "Cava Crocetta 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375292, 44.311186, 0] },
+      "properties": { "name": "Cava Crocetta 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383768, 44.31502, 0] },
+      "properties": { "name": "Cava Crocetta 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.377593, 44.310215, 0] },
+      "properties": { "name": "Cava Crocetta 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383054, 44.311304, 0] },
+      "properties": { "name": "Cava Crocetta 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382018, 44.31002, 0] },
+      "properties": { "name": "Cava Crocetta 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375214, 44.304821, 0] },
+      "properties": { "name": "Cava Santa Giulia 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387165, 44.312992, 0] },
+      "properties": { "name": "Cava Crocetta 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375463, 44.306603, 0] },
+      "properties": { "name": "Cava Crocetta 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375035, 44.304335, 0] },
+      "properties": { "name": "Cava Santa Giulia 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376103, 44.304728, 0] },
+      "properties": { "name": "Cava Santa Giulia 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37577, 44.305494, 0] },
+      "properties": { "name": "Cava Santa Giulia 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376303, 44.308455, 0] },
+      "properties": { "name": "Cava Crocetta 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.360269, 44.335488, 0] },
+      "properties": { "name": "Cava Breccanecca 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37573, 44.307151, 0] },
+      "properties": { "name": "Cava Crocetta 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376907, 44.304861, 0] },
+      "properties": { "name": "Cava Santa Giulia 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.365461, 44.335382, 0] },
+      "properties": { "name": "Cava Breccanecca 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37827, 44.306305, 0] },
+      "properties": { "name": "Cava Santa Giulia 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37406, 44.334319, 0] },
+      "properties": { "name": "Cava Breccanecca 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.372499, 44.32948, 0] },
+      "properties": { "name": "Cava Breccanecca 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.369465, 44.335684, 0] },
+      "properties": { "name": "Cava Breccanecca 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37171, 44.329771, 0] },
+      "properties": { "name": "Cava Breccanecca 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.369795, 44.334315, 0] },
+      "properties": { "name": "Cava Breccanecca 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.363038, 44.341052, 0] },
+      "properties": { "name": "Cava Monticelli 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.364315, 44.340688, 0] },
+      "properties": { "name": "Cava Monticelli 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.371103, 44.342908, 0] },
+      "properties": { "name": "Cava Monticelli 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.370892, 44.343215, 0] },
+      "properties": { "name": "Cava Monticelli4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.373782, 44.334059, 0] },
+      "properties": { "name": "Cava Breccanecca 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.370007, 44.334143, 0] },
+      "properties": { "name": "Cava Breccanecca 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.385768, 44.316049, 0] },
+      "properties": { "name": "Cava Crocetta 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382971, 44.323648, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 27" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396701, 44.313914, 0] },
+      "properties": { "name": "Cava M. Capenardo 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397066, 44.312301, 0] },
+      "properties": { "name": "Cava M. Capenardo 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404054, 44.312753, 0] },
+      "properties": { "name": "Cava Barassi 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404189, 44.312366, 0] },
+      "properties": { "name": "Cava Barassi 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.400339, 44.31409, 0] },
+      "properties": { "name": "Cava M. Capenardo 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.233106, 44.44759, 0] },
+      "properties": { "name": "Cava Moconesi 42" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404832, 44.309167, 0] },
+      "properties": { "name": "Cava Barassi 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404033, 44.313402, 0] },
+      "properties": { "name": "Cava Barassi 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389731, 44.302738, 0] },
+      "properties": { "name": "Cava Barassi 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388781, 44.303209, 0] },
+      "properties": { "name": "Cava Barassi 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388034, 44.309739, 0] },
+      "properties": { "name": "Cava Sorlana 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.228263, 44.446321, 0] },
+      "properties": { "name": "Cava Moconesi 41" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389002, 44.302551, 0] },
+      "properties": { "name": "Cava Barassi 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395376, 44.301413, 0] },
+      "properties": { "name": "Cava Barassi 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.3968, 44.311788, 0] },
+      "properties": { "name": "Cava M. Capenardo 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397315, 44.319439, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.403952, 44.310728, 0] },
+      "properties": { "name": "Cava Barassi 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404449, 44.31006, 0] },
+      "properties": { "name": "Cava Barassi 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405632, 44.308831, 0] },
+      "properties": { "name": "Cava Barassi 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.40093, 44.314313, 0] },
+      "properties": { "name": "Cava M. Capenardo 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405282, 44.310876, 0] },
+      "properties": { "name": "Cava Barassi 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.394792, 44.313479, 0] },
+      "properties": { "name": "Cava M. Capenardo 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.399782, 44.313345, 0] },
+      "properties": { "name": "Cava M. Capenardo 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.406187, 44.307605, 0] },
+      "properties": { "name": "Cava Barassi 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.40513, 44.308833, 0] },
+      "properties": { "name": "Cava Barassi 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405649, 44.30776, 0] },
+      "properties": { "name": "Cava Barassi 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397487, 44.313263, 0] },
+      "properties": { "name": "Cava M. Capenardo 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.398954, 44.313239, 0] },
+      "properties": { "name": "Cava M. Capenardo 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397214, 44.313723, 0] },
+      "properties": { "name": "Cava M. Capenardo 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396016, 44.312719, 0] },
+      "properties": { "name": "Cava M. Capenardo 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.398112, 44.313017, 0] },
+      "properties": { "name": "Cava M. Capenardo 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395892, 44.312962, 0] },
+      "properties": { "name": "Cava M. Capenardo 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396394, 44.320433, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397433, 44.312723, 0] },
+      "properties": { "name": "Cava M. Capenardo 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397593, 44.312236, 0] },
+      "properties": { "name": "Cava M. Capenardo 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378167, 44.321593, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396164, 44.312295, 0] },
+      "properties": { "name": "Cava M. Capenardo 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396293, 44.314707, 0] },
+      "properties": { "name": "Cava M. Capenardo 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404017, 44.320136, 0] },
+      "properties": { "name": "Cava M. Capenardo 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.394209, 44.318118, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395207, 44.315539, 0] },
+      "properties": { "name": "Cava M. Capenardo 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.392463, 44.313991, 0] },
+      "properties": { "name": "Cava M. Capenardo 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396159, 44.320965, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395875, 44.316023, 0] },
+      "properties": { "name": "Cava M. Capenardo 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395945, 44.313385, 0] },
+      "properties": { "name": "Cava M. Capenardo 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.393899, 44.318578, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387442, 44.320761, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.403913, 44.31965, 0] },
+      "properties": { "name": "Cava M. Capenardo 23" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.39665, 44.319343, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396426, 44.31955, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387578, 44.318545, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404426, 44.319432, 0] },
+      "properties": { "name": "Cava M. Capenardo 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404599, 44.319144, 0] },
+      "properties": { "name": "Cava M. Capenardo 24" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387001, 44.320429, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397367, 44.319709, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397176, 44.321033, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397081, 44.31998, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389612, 44.318881, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396633, 44.320549, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396844, 44.320269, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389857, 44.319906, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389415, 44.319412, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386058, 44.314256, 0] },
+      "properties": { "name": "Cava Crocetta 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396674, 44.321044, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382639, 44.32273, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 29" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387395, 44.321274, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388697, 44.317056, 0] },
+      "properties": { "name": "Cava Crocetta 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387029, 44.320861, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.369545, 44.33454, 0] },
+      "properties": { "name": "Cava Breccanecca 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38295, 44.322351, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 30" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386882, 44.321321, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.379338, 44.322255, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 23" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389764, 44.317251, 0] },
+      "properties": { "name": "Cava Crocetta 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386419, 44.31574, 0] },
+      "properties": { "name": "Cava Crocetta 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38224, 44.322975, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 28" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.381141, 44.321871, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 25" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.381905, 44.323516, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 26" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378465, 44.323059, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 24" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38663, 44.321241, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382484, 44.321993, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 31" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383144, 44.321297, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 32" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38317, 44.311772, 0] },
+      "properties": { "name": "Cava Crocetta 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382201, 44.320949, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 33" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.3796, 44.318185, 0] },
+      "properties": { "name": "Cava Crocetta 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.380066, 44.318481, 0] },
+      "properties": { "name": "Cava Crocetta 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.392211, 44.317494, 0] },
+      "properties": { "name": "Cava Crocetta 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38442, 44.314982, 0] },
+      "properties": { "name": "Cava Crocetta 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383964, 44.312382, 0] },
+      "properties": { "name": "Cava Crocetta 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378974, 44.310499, 0] },
+      "properties": { "name": "Cava Crocetta 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.385256, 44.314331, 0] },
+      "properties": { "name": "Cava Crocetta 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375292, 44.311186, 0] },
+      "properties": { "name": "Cava Crocetta 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383768, 44.31502, 0] },
+      "properties": { "name": "Cava Crocetta 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.377593, 44.310215, 0] },
+      "properties": { "name": "Cava Crocetta 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383054, 44.311304, 0] },
+      "properties": { "name": "Cava Crocetta 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382018, 44.31002, 0] },
+      "properties": { "name": "Cava Crocetta 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375214, 44.304821, 0] },
+      "properties": { "name": "Cava Santa Giulia 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387165, 44.312992, 0] },
+      "properties": { "name": "Cava Crocetta 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375463, 44.306603, 0] },
+      "properties": { "name": "Cava Crocetta 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375035, 44.304335, 0] },
+      "properties": { "name": "Cava Santa Giulia 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376103, 44.304728, 0] },
+      "properties": { "name": "Cava Santa Giulia 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37577, 44.305494, 0] },
+      "properties": { "name": "Cava Santa Giulia 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376303, 44.308455, 0] },
+      "properties": { "name": "Cava Crocetta 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.360269, 44.335488, 0] },
+      "properties": { "name": "Cava Breccanecca 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37573, 44.307151, 0] },
+      "properties": { "name": "Cava Crocetta 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376907, 44.304861, 0] },
+      "properties": { "name": "Cava Santa Giulia 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.365461, 44.335382, 0] },
+      "properties": { "name": "Cava Breccanecca 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37827, 44.306305, 0] },
+      "properties": { "name": "Cava Santa Giulia 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37406, 44.334319, 0] },
+      "properties": { "name": "Cava Breccanecca 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.372499, 44.32948, 0] },
+      "properties": { "name": "Cava Breccanecca 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.369465, 44.335684, 0] },
+      "properties": { "name": "Cava Breccanecca 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37171, 44.329771, 0] },
+      "properties": { "name": "Cava Breccanecca 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.369795, 44.334315, 0] },
+      "properties": { "name": "Cava Breccanecca 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.363038, 44.341052, 0] },
+      "properties": { "name": "Cava Monticelli 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.364315, 44.340688, 0] },
+      "properties": { "name": "Cava Monticelli 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.371103, 44.342908, 0] },
+      "properties": { "name": "Cava Monticelli 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.370892, 44.343215, 0] },
+      "properties": { "name": "Cava Monticelli4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.373782, 44.334059, 0] },
+      "properties": { "name": "Cava Breccanecca 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.370007, 44.334143, 0] },
+      "properties": { "name": "Cava Breccanecca 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.385768, 44.316049, 0] },
+      "properties": { "name": "Cava Crocetta 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382971, 44.323648, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 27" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396701, 44.313914, 0] },
+      "properties": { "name": "Cava M. Capenardo 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397066, 44.312301, 0] },
+      "properties": { "name": "Cava M. Capenardo 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404054, 44.312753, 0] },
+      "properties": { "name": "Cava Barassi 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404189, 44.312366, 0] },
+      "properties": { "name": "Cava Barassi 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.400339, 44.31409, 0] },
+      "properties": { "name": "Cava M. Capenardo 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.233106, 44.44759, 0] },
+      "properties": { "name": "Cava Moconesi 42" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404832, 44.309167, 0] },
+      "properties": { "name": "Cava Barassi 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404033, 44.313402, 0] },
+      "properties": { "name": "Cava Barassi 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389731, 44.302738, 0] },
+      "properties": { "name": "Cava Barassi 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388781, 44.303209, 0] },
+      "properties": { "name": "Cava Barassi 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388034, 44.309739, 0] },
+      "properties": { "name": "Cava Sorlana 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.228263, 44.446321, 0] },
+      "properties": { "name": "Cava Moconesi 41" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389002, 44.302551, 0] },
+      "properties": { "name": "Cava Barassi 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395376, 44.301413, 0] },
+      "properties": { "name": "Cava Barassi 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.3968, 44.311788, 0] },
+      "properties": { "name": "Cava M. Capenardo 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397315, 44.319439, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.403952, 44.310728, 0] },
+      "properties": { "name": "Cava Barassi 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404449, 44.31006, 0] },
+      "properties": { "name": "Cava Barassi 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405632, 44.308831, 0] },
+      "properties": { "name": "Cava Barassi 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.40093, 44.314313, 0] },
+      "properties": { "name": "Cava M. Capenardo 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405282, 44.310876, 0] },
+      "properties": { "name": "Cava Barassi 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.394792, 44.313479, 0] },
+      "properties": { "name": "Cava M. Capenardo 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.399782, 44.313345, 0] },
+      "properties": { "name": "Cava M. Capenardo 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.406187, 44.307605, 0] },
+      "properties": { "name": "Cava Barassi 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.40513, 44.308833, 0] },
+      "properties": { "name": "Cava Barassi 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.405649, 44.30776, 0] },
+      "properties": { "name": "Cava Barassi 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397487, 44.313263, 0] },
+      "properties": { "name": "Cava M. Capenardo 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.398954, 44.313239, 0] },
+      "properties": { "name": "Cava M. Capenardo 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397214, 44.313723, 0] },
+      "properties": { "name": "Cava M. Capenardo 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396016, 44.312719, 0] },
+      "properties": { "name": "Cava M. Capenardo 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.398112, 44.313017, 0] },
+      "properties": { "name": "Cava M. Capenardo 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395892, 44.312962, 0] },
+      "properties": { "name": "Cava M. Capenardo 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396394, 44.320433, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397433, 44.312723, 0] },
+      "properties": { "name": "Cava M. Capenardo 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397593, 44.312236, 0] },
+      "properties": { "name": "Cava M. Capenardo 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378167, 44.321593, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396164, 44.312295, 0] },
+      "properties": { "name": "Cava M. Capenardo 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396293, 44.314707, 0] },
+      "properties": { "name": "Cava M. Capenardo 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404017, 44.320136, 0] },
+      "properties": { "name": "Cava M. Capenardo 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.394209, 44.318118, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395207, 44.315539, 0] },
+      "properties": { "name": "Cava M. Capenardo 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.392463, 44.313991, 0] },
+      "properties": { "name": "Cava M. Capenardo 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396159, 44.320965, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395875, 44.316023, 0] },
+      "properties": { "name": "Cava M. Capenardo 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.395945, 44.313385, 0] },
+      "properties": { "name": "Cava M. Capenardo 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.393899, 44.318578, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387442, 44.320761, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.403913, 44.31965, 0] },
+      "properties": { "name": "Cava M. Capenardo 23" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.39665, 44.319343, 0] },
+      "properties": { "name": "Cave M. Le Rocchette 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396426, 44.31955, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387578, 44.318545, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404426, 44.319432, 0] },
+      "properties": { "name": "Cava M. Capenardo 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.404599, 44.319144, 0] },
+      "properties": { "name": "Cava M. Capenardo 24" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387001, 44.320429, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397367, 44.319709, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397176, 44.321033, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.397081, 44.31998, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389612, 44.318881, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396633, 44.320549, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396844, 44.320269, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389857, 44.319906, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389415, 44.319412, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386058, 44.314256, 0] },
+      "properties": { "name": "Cava Crocetta 8" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.396674, 44.321044, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382639, 44.32273, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 29" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387395, 44.321274, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.388697, 44.317056, 0] },
+      "properties": { "name": "Cava Crocetta 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387029, 44.320861, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.369545, 44.33454, 0] },
+      "properties": { "name": "Cava Breccanecca 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38295, 44.322351, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 30" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386882, 44.321321, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.379338, 44.322255, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 23" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.389764, 44.317251, 0] },
+      "properties": { "name": "Cava Crocetta 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.386419, 44.31574, 0] },
+      "properties": { "name": "Cava Crocetta 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38224, 44.322975, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 28" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.381141, 44.321871, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 25" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.381905, 44.323516, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 26" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378465, 44.323059, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 24" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38663, 44.321241, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382484, 44.321993, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 31" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383144, 44.321297, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 32" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38317, 44.311772, 0] },
+      "properties": { "name": "Cava Crocetta 14" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382201, 44.320949, 0] },
+      "properties": { "name": "Cava M. Le Rocchette 33" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.3796, 44.318185, 0] },
+      "properties": { "name": "Cava Crocetta 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.380066, 44.318481, 0] },
+      "properties": { "name": "Cava Crocetta 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.392211, 44.317494, 0] },
+      "properties": { "name": "Cava Crocetta 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.38442, 44.314982, 0] },
+      "properties": { "name": "Cava Crocetta 11" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383964, 44.312382, 0] },
+      "properties": { "name": "Cava Crocetta 13" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.378974, 44.310499, 0] },
+      "properties": { "name": "Cava Crocetta 17" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.385256, 44.314331, 0] },
+      "properties": { "name": "Cava Crocetta 9" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375292, 44.311186, 0] },
+      "properties": { "name": "Cava Crocetta 19" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383768, 44.31502, 0] },
+      "properties": { "name": "Cava Crocetta 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.377593, 44.310215, 0] },
+      "properties": { "name": "Cava Crocetta 18" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.383054, 44.311304, 0] },
+      "properties": { "name": "Cava Crocetta 15" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.382018, 44.31002, 0] },
+      "properties": { "name": "Cava Crocetta 16" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375214, 44.304821, 0] },
+      "properties": { "name": "Cava Santa Giulia 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.387165, 44.312992, 0] },
+      "properties": { "name": "Cava Crocetta 12" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375463, 44.306603, 0] },
+      "properties": { "name": "Cava Crocetta 22" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.375035, 44.304335, 0] },
+      "properties": { "name": "Cava Santa Giulia 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376103, 44.304728, 0] },
+      "properties": { "name": "Cava Santa Giulia 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37577, 44.305494, 0] },
+      "properties": { "name": "Cava Santa Giulia 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376303, 44.308455, 0] },
+      "properties": { "name": "Cava Crocetta 20" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.360269, 44.335488, 0] },
+      "properties": { "name": "Cava Breccanecca 4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37573, 44.307151, 0] },
+      "properties": { "name": "Cava Crocetta 21" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.376907, 44.304861, 0] },
+      "properties": { "name": "Cava Santa Giulia 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.365461, 44.335382, 0] },
+      "properties": { "name": "Cava Breccanecca 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37827, 44.306305, 0] },
+      "properties": { "name": "Cava Santa Giulia 6" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37406, 44.334319, 0] },
+      "properties": { "name": "Cava Breccanecca 10" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.372499, 44.32948, 0] },
+      "properties": { "name": "Cava Breccanecca 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.369465, 44.335684, 0] },
+      "properties": { "name": "Cava Breccanecca 5" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.37171, 44.329771, 0] },
+      "properties": { "name": "Cava Breccanecca 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.369795, 44.334315, 0] },
+      "properties": { "name": "Cava Breccanecca 7" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.363038, 44.341052, 0] },
+      "properties": { "name": "Cava Monticelli 1" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.364315, 44.340688, 0] },
+      "properties": { "name": "Cava Monticelli 2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.371103, 44.342908, 0] },
+      "properties": { "name": "Cava Monticelli 3" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.370892, 44.343215, 0] },
+      "properties": { "name": "Cava Monticelli4" }
+    }
+  ]
+}

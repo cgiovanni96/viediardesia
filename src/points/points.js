@@ -11,6 +11,7 @@ import pharmacy from "./pharmacy";
 import resistance from "./resistance";
 import trainStation from "./train-station";
 import view from "./view";
+import cave2 from "./cave2";
 
 const points = [
   ...camping,
@@ -26,6 +27,10 @@ const points = [
   ...trainStation,
   ...misc,
   ...view,
+  ...cave2,
 ];
 
+// const onlyCave2 = [...cave2];
+
+// export default onlyCave2;
 export default points;

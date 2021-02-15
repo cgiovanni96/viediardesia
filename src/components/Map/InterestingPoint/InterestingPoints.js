@@ -29,7 +29,10 @@ const InterestingPoints = () => {
             }}
           >
             {pointOfInterest ? (
-              <img src={`./legend/${pointOfInterest.icon}.png`} alt={"ICONA"} />
+              <Icon
+                src={`./legend/${pointOfInterest.icon}.png`}
+                alt={"ICONA"}
+              />
             ) : (
               <HereIcon size={32} color={"white"} />
             )}
@@ -41,6 +44,7 @@ const InterestingPoints = () => {
         <Popup
           latitude={selectedPoint.position.latitude}
           longitude={selectedPoint.position.longitude}
+          className="big-popup"
           style={{
             background: "none",
             padding: "none",
@@ -75,4 +79,9 @@ const SelectedPoint = styled.div`
     width: 100%;
     height: 100px;
   }
+`;
+
+const Icon = styled.img`
+  width: 70%;
+  height: 70%;
 `;

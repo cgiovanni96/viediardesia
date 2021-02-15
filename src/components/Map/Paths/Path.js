@@ -10,6 +10,7 @@ const Path = ({ path, onLayerClick, isMapSelected, before, setSelected }) => {
   }, [isMapSelected, path.color]);
 
   const onPathClick = (e) => {
+    console.log("Selected", path.id);
     onLayerClick(e);
     setSelected(path.id);
     setPathColor(lineColor);
