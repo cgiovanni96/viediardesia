@@ -3,7 +3,6 @@ import { ArrowLeftCircle as BackIcon } from "@styled-icons/feather/ArrowLeftCirc
 import { Mountains as DistanceIcon } from "@styled-icons/foundation/Mountains";
 import React, { useContext, useEffect, useState } from "react";
 import { FormattedMessage } from "react-intl";
-import "react-medium-image-zoom/dist/styles.css";
 import { Link, useParams } from "react-router-dom";
 import { up } from "styled-breakpoints";
 import styled from "styled-components";
