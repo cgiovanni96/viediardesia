@@ -18,7 +18,6 @@ const Main = () => {
   const [text, setText] = useState("");
   const [metadata, setMetadata] = useState({
     title: "",
-    difficulty: "",
     altitude: "",
     duration: "",
     height: "",
@@ -76,16 +75,6 @@ const Main = () => {
                   :{" "}
                 </span>
                 {metadata.altitude || ""}
-              </Element>
-              <Element>
-                <span>
-                  <FormattedMessage
-                    id="difficulty"
-                    defaultMessage="Difficoltà"
-                  />
-                  :{" "}
-                </span>{" "}
-                {metadata.difficulty || ""}
               </Element>
             </List>
           </Info>

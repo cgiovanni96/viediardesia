@@ -1,7 +1,7 @@
 const chapel = [
   {
-    name: "chapel-11",
-    image: "./points/chapel-1/chapel-11.jpeg",
+    name: "chapel1",
+    image: "./points/chapel/chapel-1.jpeg",
     icon: "chapel-1",
     position: { latitude: 44.307058, longitude: 9.371153 },
     text: {
@@ -11,8 +11,8 @@ const chapel = [
   },
 
   {
-    name: "chapel-12",
-    image: "./points/chapel-1/chapel-12.jpeg",
+    name: "chapel2",
+    image: "./points/chapel/chapel-2.jpeg",
     icon: "chapel-1",
     position: { latitude: 44.309947, longitude: 9.372397 },
     text: {
@@ -22,8 +22,8 @@ const chapel = [
   },
 
   {
-    name: "chapel-13",
-    image: "./points/chapel-1/chapel-13.jpeg",
+    name: "chapel3",
+    image: "./points/chapel/chapel3.jpeg",
     icon: "chapel-1",
     position: { latitude: 44.319673, longitude: 9.397194 },
     text: {
@@ -33,8 +33,8 @@ const chapel = [
   },
 
   {
-    name: "chapel-14",
-    image: "./points/chapel-1/chapel-14.jpeg",
+    name: "chapel4",
+    image: "./points/chapel/chapel4.jpeg",
     icon: "chapel-1",
     position: { latitude: 44.325981, longitude: 9.387603 },
     text: {
@@ -44,8 +44,8 @@ const chapel = [
   },
 
   {
-    name: "chapel-15",
-    image: "./points/chapel-1/chapel-15.jpeg",
+    name: "chapel5",
+    image: "./points/chapel/chapel5.jpeg",
     icon: "chapel-1",
     position: { latitude: 44.325738, longitude: 9.378575 },
     text: {
@@ -55,8 +55,8 @@ const chapel = [
   },
 
   {
-    name: "chapel-16",
-    image: "./points/chapel-1/chapel-16.jpeg",
+    name: "chapel6",
+    image: "./points/chapel/chapel6.jpeg",
     icon: "chapel-1",
     position: { latitude: 44.318829, longitude: 9.395752 },
     text: {
@@ -66,8 +66,8 @@ const chapel = [
   },
 
   {
-    name: "chapel-17",
-    image: "./points/chapel-1/chapel-17.jpeg",
+    name: "chapel7",
+    image: "./points/chapel/chapel7.jpeg",
     icon: "chapel-1",
     position: { latitude: 44.299695, longitude: 9.374853 },
     text: {
@@ -77,8 +77,8 @@ const chapel = [
   },
 
   {
-    name: "chapel-18",
-    image: "./points/chapel-1/chapel-18.jpeg",
+    name: "chapel8",
+    image: "./points/chapel/chapel8.jpeg",
     icon: "chapel-1",
     position: { latitude: 44.303362, longitude: 9.370108 },
     text: {

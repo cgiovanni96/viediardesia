@@ -1,9 +1,8 @@
 ---
-title: Lavagna - Cogorno
-difficulty: Facile
-altitude: 240m
-duration: 1h
-height: 249m
+title: Sant'Anna - Monte Costello - Monte Capenardo - Colla
+altitude: 695m
+duration: 2h30m
+height: 5.8km
 ---
 
-“Strada dell’Oro Nero”. Consigliabile escursione che ricalca il percorso delle portatri-ci d’ardesia, le “camalle”, che camminando a piedi nudi sui sentieri lastricati traspor-tavano sul capo le lastre di ardesia (le ciappe) estratte dalle cave sino giù al mare sulla spiaggia per imbarcarle sui leudi. Il sentiero parte da Lavagna in piazza Marconi, a lato della Basilica di S. Stefano e si snoda dolcemente sulla collina intersecando diver-se volte la carrozzabile sino ad arrivare alla Chiesa di S. Martino di Cogorno da dove si può proseguire con l’itinerario 1-B.
+Da fare

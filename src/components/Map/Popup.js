@@ -11,12 +11,17 @@ const Popup = ({ lat, lng, id }) => {
   const [info, setInfo] = useState({
     title: "",
     duration: "",
+    altitude: "",
   });
 
   useEffect(() => {
     const md = async () => {
       const { metadata } = await getHikeInfo(id, locale.id);
-      setInfo({ title: metadata.title, duration: metadata.duration });
+      setInfo({
+        title: metadata.title,
+        duration: metadata.duration,
+        altitude: metadata.altitude,
+      });
     };
 
     md();
@@ -43,6 +48,11 @@ const Popup = ({ lat, lng, id }) => {
         <HikeInfo>
           <HikeDetail>Tempo:</HikeDetail>
           <HikeTime>{info.duration} </HikeTime>
+        </HikeInfo>
+
+        <HikeInfo>
+          <HikeDetail>Dislivello:</HikeDetail>
+          <HikeTime>{info.altitude} </HikeTime>
         </HikeInfo>
       </Base>
     </PopupGL>
