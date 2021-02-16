@@ -1,3 +1,3 @@
-const defaultColor = "#5bd5e3";
+const defaultColor = "#38c96b";
 
 export default defaultColor;

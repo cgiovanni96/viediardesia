@@ -62,6 +62,7 @@ const SelectedPoint = styled.div`
 
 const Name = styled.h2`
   font-size: 1.2rem;
-  color: #275ab3;
+  color: #c93877;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   font-weight: bold;
 `;

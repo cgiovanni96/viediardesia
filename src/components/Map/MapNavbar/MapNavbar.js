@@ -7,7 +7,7 @@ import MobileLeftMenu from "./MobileLeftMenu";
 const MapNavbar = () => {
   return (
     <Nav className="nav">
-      <Title>VIE</Title>
+      <Title>Antiche Vie Dell'Ardesia verso il Mare</Title>
       <Right>
         <DesktopLeftMenu />
         <MobileLeftMenu />
@@ -38,7 +38,7 @@ const Nav = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 46px;
+  font-size: 36px;
   font-weight: 800;
 `;
 
