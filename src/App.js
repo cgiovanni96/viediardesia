@@ -6,6 +6,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 
 import Home from "./pages/Home";
 import Hike from "./pages/Hike/Hike";
+import Auth from "./pages/Auth";
 
 import locales from "./languages/locales";
 import Italian from "./languages/it-IT.json";
@@ -17,19 +18,24 @@ export const LocaleContext = React.createContext(locales);
 const App = () => {
   const [locale, setLocale] = useState(locales.it);
   const value = { locale, setLocale };
+  const [authorized, setAuthorized] = useState(false);
 
   let messages = locale.id === "it" ? Italian : English;
 
   return (
     <LocaleContext.Provider value={value}>
       <IntlProvider locale={value.locale.locale} messages={messages}>
-        <Router>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/:hike" element={<Hike />} />
-          </Routes>
-        </Router>
+        {authorized ? (
+          <Router>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/:hike" element={<Hike />} />
+            </Routes>
+          </Router>
+        ) : (
+          <Auth setAuthorized={setAuthorized} />
+        )}
       </IntlProvider>
     </LocaleContext.Provider>
   );
