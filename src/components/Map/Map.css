@@ -7,3 +7,15 @@
 .big-popup {
   width: 400px;
 }
+
+.mapboxgl-popup-content {
+  min-width: 300px;
+  /* max-width: 600px; */
+}
+
+@media only screen and (min-width: 600px) {
+  .mapboxgl-popup-content {
+    min-width: 400px;
+    /* max-width: 600px; */
+  }
+}

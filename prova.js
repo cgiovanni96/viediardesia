@@ -1,30 +1,18 @@
-const cave = require("./cave.json");
+const percorso = require("./percorso-6.json");
 const fs = require("fs");
 
-function jsonToFile(cave) {
-  const ret = cave.features.map((c) => {
-    let stringify = "{\n";
-    stringify += "name: '" + c.properties.name + "',\n";
-    stringify += "image: '',\n";
-    stringify += "icon: 'cave',\n";
-    stringify += "position: {\n";
-    stringify +=
-      "longitude: " +
-      c.geometry.coordinates[0] +
-      "," +
-      "latitude:" +
-      c.geometry.coordinates[1] +
-      "},\n";
-    stringify += "text: {\n " + 'it: "' + c.properties.name + '"} \n';
-    stringify = stringify + "\n},\n\n";
-    // console.log(stringify);
-    fs.writeFileSync("./result.js", stringify, { flag: "a" });
-    return stringify;
+function jsonToFile(arg) {
+  const reversed = arg.features[0].geometry.coordinates[0].reverse();
+
+  fs.writeFileSync("./reversed.js", JSON.stringify(reversed), function (err) {
+    if (err) {
+      console.log("Error");
+    }
   });
 }
 
-console.log("STARTING");
+console.log("🚀 STARTING");
 
-jsonToFile(cave);
+jsonToFile(percorso);
 
-console.log("DONE");
+console.log("🛑 DONE");

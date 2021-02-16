@@ -21,11 +21,12 @@ const App = () => {
   const [authorized, setAuthorized] = useState(false);
 
   let messages = locale.id === "it" ? Italian : English;
+  const auth = process.env.REACT_APP_AUTH;
 
   return (
     <LocaleContext.Provider value={value}>
       <IntlProvider locale={value.locale.locale} messages={messages}>
-        {authorized ? (
+        {auth || authorized ? (
           <Router>
             <Routes>
               <Route path="/" element={<Home />} />

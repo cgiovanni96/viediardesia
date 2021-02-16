@@ -4,6 +4,7 @@ import styled from "styled-components";
 import icons from "../../../icons/icons";
 import { ChevronDown as DownIcon } from "@styled-icons/boxicons-regular/ChevronDown";
 import { ChevronUp as UpIcon } from "@styled-icons/boxicons-regular/ChevronUp";
+import { FilterAlt as FilterIcon } from "@styled-icons/boxicons-regular/FilterAlt";
 
 const Legend = () => {
   const [selected, setSelected] = useState(false);
@@ -15,7 +16,9 @@ const Legend = () => {
   return (
     <Base>
       <Text onClick={() => toggleSelected()}>
-        <span>Legenda</span>{" "}
+        <span>
+          <FilterIcon size={28} color={"white"} />
+        </span>
         {selected ? (
           <UpIcon size={24} color={"white"} />
         ) : (
@@ -23,14 +26,16 @@ const Legend = () => {
         )}
       </Text>
       <Menu selected={selected}>
-        {icons.map((icon) => {
-          return (
-            <Key key={icon.id}>
-              <img src={icon.img} alt={icon.id} />
-              <span>{icon.text.it} </span>
-            </Key>
-          );
-        })}
+        <List>
+          {icons.map((icon) => {
+            return (
+              <Key key={icon.id}>
+                <img src={icon.img} alt={icon.id} />
+                <span>{icon.text.it} </span>
+              </Key>
+            );
+          })}
+        </List>
       </Menu>
     </Base>
   );
@@ -41,7 +46,7 @@ export default Legend;
 const Base = styled.div`
   position: relative;
   display: inline-block;
-  padding: 0.7rem;
+  padding: 0.5rem;
   border-radius: 0.5rem;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 `;
@@ -52,7 +57,7 @@ const Text = styled.span`
   align-items: center;
 `;
 
-const Menu = styled.ul`
+const Menu = styled.div`
   display: ${(props) => (props.selected ? "flex" : "none")};
   flex-direction: column;
   justify-content: center;
@@ -64,24 +69,30 @@ const Menu = styled.ul`
   width: 100vw;
   background: white;
   color: black;
-
+  max-height: 200px;
+  overflow-y: scroll;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   ${up("lg")} {
     display: ${(props) => (props.selected ? "inline-block" : "none")};
     position: absolute;
     left: -200px;
     top: 65px;
     padding: 1rem;
-    /* overflow: initial; */
     width: 500px;
     border-radius: 1rem;
   }
+`;
+
+const List = styled.ul`
+  height: auto;
+  position: relative;
+  /* overflow-y: scroll; */
 `;
 
 const Key = styled.li`
   height: 40px;
   display: flex;
   align-items: center;
-  overflow: auto;
 
   & > span {
     margin-left: 1em;
