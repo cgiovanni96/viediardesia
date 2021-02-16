@@ -1,26 +1,18 @@
 import React from "react";
-import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import LanguageSwitcher from "../../LanguageSwitcher";
-import { Link as RouterLink } from "react-router-dom";
-import Legend from "./Legend";
+import DesktopLeftMenu from "./DesktopLeftMenu";
+import MobileLeftMenu from "./MobileLeftMenu";
 
 const MapNavbar = () => {
   return (
     <Nav className="nav">
       <Title>VIE</Title>
-      <Navigation>
-        <Legend />
-        <Link>
-          <RouterLink to="/about">
-            <FormattedMessage id="who" defaultMessage="CHI SIAMO" />
-          </RouterLink>
-        </Link>
-        <Link>
-          <FormattedMessage id="list" defaultMessage="LISTA ITINERARI" />
-        </Link>
+      <Right>
+        <DesktopLeftMenu />
+        <MobileLeftMenu />
         <LanguageSwitcher />
-      </Navigation>
+      </Right>
     </Nav>
   );
 };
@@ -50,18 +42,7 @@ const Title = styled.h1`
   font-weight: 800;
 `;
 
-const Navigation = styled.div`
+const Right = styled.div`
   display: flex;
-  font-size: 18px;
   align-items: center;
-`;
-
-const Link = styled.span`
-  margin-left: 1rem;
-  cursor: pointer;
-  transition: 0.3s linear;
-
-  &:hover {
-    color: #1e221a;
-  }
 `;

@@ -26,16 +26,14 @@ const Legend = () => {
         )}
       </Text>
       <Menu selected={selected}>
-        <List>
-          {icons.map((icon) => {
-            return (
-              <Key key={icon.id}>
-                <img src={icon.img} alt={icon.id} />
-                <span>{icon.text.it} </span>
-              </Key>
-            );
-          })}
-        </List>
+        {icons.map((icon) => {
+          return (
+            <Key key={icon.id}>
+              <img src={icon.img} alt={icon.id} />
+              <span>{icon.text.it} </span>
+            </Key>
+          );
+        })}
       </Menu>
     </Base>
   );
@@ -57,20 +55,21 @@ const Text = styled.span`
   align-items: center;
 `;
 
-const Menu = styled.div`
+const Menu = styled.ul`
   display: ${(props) => (props.selected ? "flex" : "none")};
   flex-direction: column;
   justify-content: center;
   padding-left: 2rem;
-  position: fixed;
-  z-index: 1;
-  top: 60px;
+  position: absolute;
+  z-index: 4;
+  top: 80px;
   left: 0;
   width: 100vw;
   background: white;
   color: black;
-  max-height: 200px;
-  overflow-y: scroll;
+  min-height: 200px;
+  /* max-height: 400px; */
+  overflow: scroll;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   ${up("lg")} {
     display: ${(props) => (props.selected ? "inline-block" : "none")};
@@ -81,12 +80,17 @@ const Menu = styled.div`
     width: 500px;
     border-radius: 1rem;
   }
-`;
 
-const List = styled.ul`
-  height: auto;
-  position: relative;
-  /* overflow-y: scroll; */
+  &:before {
+    content: "";
+    display: table;
+  }
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 `;
 
 const Key = styled.li`

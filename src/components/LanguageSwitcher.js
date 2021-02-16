@@ -22,10 +22,10 @@ export default LanguageSwitcher;
 
 const Base = styled.div`
   display: flex;
-  margin-left: 2rem;
+  margin-left: 0.2rem;
 `;
 
 const Lang = styled.div`
-  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   cursor: pointer;
 `;

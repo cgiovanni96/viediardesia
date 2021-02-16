@@ -1,18 +1,17 @@
-// import santaGiulia from "./santaGiulia";
-import santAnna from "./santAnna";
-import capenardo from "./capenardo";
-import marino from "./marino";
-import sangiacomo from "./sangiacomo";
-import sentieroliguria from "./sentieroliguria8";
-import circolare from "./circolare";
+import percorso1 from "./percorso1";
+import percorso2 from "./percorso2";
+import percorso3 from "./percorso3";
+import percorso5 from "./percorso5";
+import percorso6 from "./percorso6";
+import sentieroliguria8 from "./sentieroliguria8";
 
 const paths = [
-  santAnna,
-  capenardo,
-  marino,
-  sangiacomo,
-  sentieroliguria,
-  circolare,
+  percorso1,
+  percorso2,
+  percorso3,
+  percorso5,
+  percorso6,
+  sentieroliguria8,
 ];
 
 export default paths;

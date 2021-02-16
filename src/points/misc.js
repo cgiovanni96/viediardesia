@@ -2,7 +2,7 @@ const misc = [
   {
     name: "biblioteca",
     image: "./points/biblioteca.jpg",
-    icon: "book",
+    icon: "library",
     position: { latitude: 44.31015927425799, longitude: 9.345441504295946 },
     text: {
       it: "Biblioteca di Lavagna",
