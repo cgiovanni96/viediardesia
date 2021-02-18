@@ -33,6 +33,8 @@ const Base = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background: #3e3936;
+  color: white;
 `;
 
 const Wrapper = styled.div`
@@ -43,13 +45,14 @@ const Wrapper = styled.div`
   padding: 0 1em;
   width: 100%;
   ${up("lg")} {
-    width: 80%;
+    /* width: 80%; */
     padding: none;
   }
 `;
 
 const Main = styled.div`
   margin-top: 2rem;
+  width: 100%;
   display: flex;
   font-family: ${({ theme }) => theme.typo.family.main};
   flex-direction: column;
@@ -60,9 +63,11 @@ const Main = styled.div`
 `;
 
 const Message = styled.div`
+  margin: 0 auto;
   order: 2;
   width: 100%;
-  background: ${({ theme }) => theme.palette.accent.light};
+  background: #26211e;
+  color: white;
   padding: 2rem 3rem;
   border-radius: 16px;
   box-shadow: ${({ theme }) => theme.palette.shadow.default};

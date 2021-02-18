@@ -14,7 +14,7 @@ const church = [
 
   {
     name: "basilicasanstefano",
-    image: ["./points/church/church2-1.jpeg", "./points/church/church2-2.jpeg"],
+    image: "./points/church/church2-1.jpeg",
     icon: "church",
     position: { latitude: 44.3099010130757, longitude: 9.347893787886575 },
     text: {

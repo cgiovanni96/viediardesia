@@ -22,7 +22,7 @@ export default LanguageSwitcher;
 
 const Base = styled.div`
   display: flex;
-  margin-left: 0.2rem;
+  margin-left: 1rem;
 `;
 
 const Lang = styled.div`

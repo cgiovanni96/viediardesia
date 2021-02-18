@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link as RouterLink } from "react-router-dom";
 import LanguageSwitcher from "../../LanguageSwitcher";
 import DesktopLeftMenu from "./DesktopLeftMenu";
 import MobileLeftMenu from "./MobileLeftMenu";
@@ -7,7 +8,9 @@ import MobileLeftMenu from "./MobileLeftMenu";
 const MapNavbar = () => {
   return (
     <Nav className="nav">
-      <Title>Antiche Vie Dell'Ardesia verso il Mare</Title>
+      <Title>
+        <RouterLink to="/">Antiche Vie Dell'Ardesia verso il Mare</RouterLink>
+      </Title>
       <Right>
         <DesktopLeftMenu />
         <MobileLeftMenu />

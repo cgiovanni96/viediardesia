@@ -1,7 +1,7 @@
 const chapel = [
   {
     name: "chapel1",
-    image: "./points/chapel/chapel-1.jpeg",
+    image: "./points/chapel/chapel1.jpeg",
     icon: "chapel-1",
     position: { latitude: 44.307058, longitude: 9.371153 },
     text: {
@@ -12,7 +12,7 @@ const chapel = [
 
   {
     name: "chapel2",
-    image: "./points/chapel/chapel-2.jpeg",
+    image: "./points/chapel/chapel2.jpeg",
     icon: "chapel-1",
     position: { latitude: 44.309947, longitude: 9.372397 },
     text: {

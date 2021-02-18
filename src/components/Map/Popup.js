@@ -21,6 +21,7 @@ const Popup = ({ lat, lng, id }) => {
         title: metadata.title,
         duration: metadata.duration,
         altitude: metadata.altitude,
+        height: metadata.height,
       });
     };
 
@@ -45,15 +46,22 @@ const Popup = ({ lat, lng, id }) => {
           </HikeName>
         </HikeInfo>
 
-        <HikeInfo>
-          <HikeDetail>Tempo:</HikeDetail>
-          <HikeTime>{info.duration} </HikeTime>
-        </HikeInfo>
+        <InfoFooter>
+          <HikeInfo>
+            <HikeDetail>Tempo:</HikeDetail>
+            <HikeTime>{info.duration} </HikeTime>
+          </HikeInfo>
 
-        <HikeInfo>
-          <HikeDetail>Dislivello:</HikeDetail>
-          <HikeTime>{info.altitude} </HikeTime>
-        </HikeInfo>
+          <HikeInfo>
+            <HikeDetail>Dislivello:</HikeDetail>
+            <HikeTime>{info.altitude} </HikeTime>
+          </HikeInfo>
+
+          <HikeInfo>
+            <HikeDetail>Lunghezza:</HikeDetail>
+            <HikeTime>{info.height} </HikeTime>
+          </HikeInfo>
+        </InfoFooter>
       </Base>
     </PopupGL>
   );
@@ -71,6 +79,12 @@ const Base = styled.div`
   flex-direction: column;
   /* align-items: center; */
   font-family: ${({ theme }) => theme.typo.family.main};
+`;
+
+const InfoFooter = styled.div`
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: space-between;
 `;
 
 const HikeInfo = styled.div`

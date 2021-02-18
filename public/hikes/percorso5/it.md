@@ -1,5 +1,5 @@
 ---
-title: Cavi - Cerreto - Sant'Eufemiano - Barassi - Bivio Loto
+title: Cavi - Cerreto - Sant'Eufemiano - Barassi - Monte Zucchetto
 altitude: 490m
 duration: 3h30m
 height: 7.8km

@@ -12,6 +12,8 @@ import locales from "./languages/locales";
 import Italian from "./languages/it-IT.json";
 import English from "./languages/en-US.json";
 import About from "./pages/About";
+import Map from "./pages/Map";
+import PathList from "./pages/PathList/PathList";
 
 export const LocaleContext = React.createContext(locales);
 
@@ -21,7 +23,6 @@ const App = () => {
   const [authorized, setAuthorized] = useState(false);
 
   let messages = locale.id === "it" ? Italian : English;
-  // const auth = process.env.REACT_APP_AUTH;
 
   return (
     <LocaleContext.Provider value={value}>
@@ -30,8 +31,10 @@ const App = () => {
           <Router>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/map" element={<Map />} />
               <Route path="/about" element={<About />} />
               <Route path="/:hike" element={<Hike />} />
+              <Route path="/paths" element={<PathList />} />
             </Routes>
           </Router>
         ) : (

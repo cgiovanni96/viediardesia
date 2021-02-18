@@ -1,44 +1,63 @@
 import { BeenHere as HereIcon } from "@styled-icons/boxicons-solid/BeenHere";
 import { Marker, Popup } from "@urbica/react-map-gl";
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import styled from "styled-components";
 import { LocaleContext } from "../../../App";
-import points from "../../../points/points";
+import { pointsByCategories } from "../../../points/points";
 import Image from "../../Image";
 import Text from "../../Text";
+import { LegendContext } from "../Map";
 import "../Map.css";
 
 const InterestingPoints = () => {
   const [selectedPoint, setSelectedPoint] = useState(null);
+  const [pointsToDisplay, setPointsToDisplay] = useState([]);
   const { locale } = useContext(LocaleContext);
+  const legendContext = useContext(LegendContext);
+
+  useEffect(() => {
+    if (legendContext.checked === null || legendContext.checked === String(0)) {
+      const mapped = pointsByCategories.map((cat) => {
+        return cat.points;
+      });
+
+      setPointsToDisplay(mapped.flat());
+    } else {
+      const mapped = pointsByCategories[legendContext.checked - 1].points;
+      setPointsToDisplay(mapped);
+    }
+  }, [legendContext.checked]);
 
   return (
     <>
-      {points.map((pointOfInterest, id) => (
-        <Marker
-          key={id}
-          latitude={pointOfInterest.position.latitude + 0.000015}
-          longitude={pointOfInterest.position.longitude}
-        >
-          <button
-            className="point"
-            onClick={(e) => {
-              e.preventDefault();
-              setSelectedPoint(pointOfInterest);
-              e.stopPropagation();
-            }}
+      {pointsToDisplay.map((pointOfInterest, id) => {
+        // console.log("PUNTO", pointOfInterest.name);
+        return (
+          <Marker
+            key={id}
+            latitude={pointOfInterest.position.latitude + 0.000015}
+            longitude={pointOfInterest.position.longitude}
           >
-            {pointOfInterest ? (
-              <Icon
-                src={`./legend/${pointOfInterest.icon}.png`}
-                alt={"ICONA"}
-              />
-            ) : (
-              <HereIcon size={32} color={"white"} />
-            )}
-          </button>
-        </Marker>
-      ))}
+            <button
+              className="point"
+              onClick={(e) => {
+                e.preventDefault();
+                setSelectedPoint(pointOfInterest);
+                e.stopPropagation();
+              }}
+            >
+              {pointOfInterest ? (
+                <Icon
+                  src={`./legend/${pointOfInterest.icon}.png`}
+                  alt={"ICONA"}
+                />
+              ) : (
+                <HereIcon size={32} color={"white"} />
+              )}
+            </button>
+          </Marker>
+        );
+      })}
 
       {selectedPoint ? (
         <Popup

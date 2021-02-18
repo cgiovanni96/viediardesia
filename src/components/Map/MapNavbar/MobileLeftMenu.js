@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { Menu as MenuIcon } from "@styled-icons/boxicons-regular/Menu";
 import { Link as RouterLink } from "react-router-dom";
 import { FormattedMessage } from "react-intl";
-import Legend from "./Legend";
+import Legend from "./Legend/Legend";
 
 const MobileLeftMenu = () => {
   const [selected, setSelected] = useState(false);
@@ -49,7 +49,7 @@ const Base = styled.div`
 const Menu = styled.div`
   position: absolute;
   display: ${(props) => (props.selected ? "flex" : "none")};
-  background: #f5f5f5;
+  background: ${({ theme }) => theme.palette.accent.light};
   color: ${({ theme }) => theme.palette.text.default};
   padding: 2rem 2rem;
   width: 200px;
@@ -62,4 +62,5 @@ const List = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
+  font-weight: bold;
 `;

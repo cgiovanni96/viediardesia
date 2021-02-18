@@ -20,10 +20,13 @@ import "./Map.css";
 import Zone from "./Zone/Zone";
 import zones from "../../zones";
 import BackgroundPaths from "./BackgroundPaths";
+import legend from "../../utils/legend";
 //need this statement due to a bug with mapbox-gl's version 2.0
 //which resulted in a conflict with webpack while processing the build for production
 // eslint-disable-next-line import/no-webpack-loader-syntax
 mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
+
+export const LegendContext = React.createContext(legend);
 
 const Map = () => {
   const isDesktop = useMediaQuery({
@@ -40,6 +43,10 @@ const Map = () => {
 
   const [popup, setPopup] = useState({});
 
+  const [checked, setChecked] = useState(null);
+
+  const legendContext = { checked, setChecked };
+
   const onLayerClick = (e) => {
     setIsMapSelected(false);
     setPopup({
@@ -55,7 +62,7 @@ const Map = () => {
   };
 
   return (
-    <>
+    <LegendContext.Provider value={legendContext}>
       <MapNavbar />
       <MapGL
         style={{
@@ -89,7 +96,7 @@ const Map = () => {
 
         <InterestingPoints />
       </MapGL>
-    </>
+    </LegendContext.Provider>
   );
 };
 

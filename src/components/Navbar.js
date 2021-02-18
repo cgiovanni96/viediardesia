@@ -9,7 +9,9 @@ const Navbar = () => {
   return (
     <Base>
       <Title>
-        <Link to="/">ARDESIA</Link>
+        <Link to="/">
+          <Logo src={"./logo.jpg"} alt={"logo"} />
+        </Link>
       </Title>
       <Navigation>
         <NavEl>
@@ -18,7 +20,9 @@ const Navbar = () => {
           </Link>
         </NavEl>
         <NavEl>
-          <FormattedMessage id="list" defaultMessage="LISTA ITINERARI" />
+          <Link to="/paths">
+            <FormattedMessage id="list" defaultMessage="LISTA ITINERARI" />
+          </Link>
         </NavEl>
 
         <LanguageSwitcher />
@@ -30,19 +34,31 @@ const Navbar = () => {
 export default Navbar;
 
 const Base = styled.section`
-  height: 75px;
+  z-index: 8;
+  margin-top: 0.5rem;
+  height: 80px;
   display: flex;
   align-items: center;
+  background: white;
+  padding: 0 1rem;
+  width: 80%;
+  margin: 0 auto;
+  color: black;
   /* padding: 0 4rem; */
 `;
 
-const Title = styled.h1`
+const Title = styled.div`
   font-family: ${({ theme }) => theme.typo.family.secondary};
   font-weight: ${({ theme }) => theme.typo.weight.bold};
   background: ${({ theme }) => theme.palette.gradient.main};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   flex: 1;
+`;
+
+const Logo = styled.img`
+  width: auto;
+  height: 60px;
 `;
 
 const Navigation = styled.nav`

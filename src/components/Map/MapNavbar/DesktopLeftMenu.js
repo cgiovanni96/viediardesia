@@ -1,7 +1,7 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
-import Legend from "./Legend";
+import Legend from "./Legend/Legend";
 import { Link as RouterLink } from "react-router-dom";
 import { up } from "styled-breakpoints";
 
