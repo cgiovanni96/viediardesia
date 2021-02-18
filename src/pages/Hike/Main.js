@@ -76,6 +76,12 @@ const Main = () => {
                 </span>
                 {metadata.altitude || ""}
               </Element>
+              <Element>
+                <span>
+                  <FormattedMessage id="height" defaultMessage="Dislivello" />:{" "}
+                </span>
+                {metadata.height || ""}
+              </Element>
             </List>
           </Info>
         </Side>
@@ -101,7 +107,8 @@ const Base = styled.section`
 const Highlight = styled.div`
   width: 100%;
   margin: 0 auto;
-  height: 110px;
+  padding: 1rem;
+  /* height: 110px; */
   background: ${({ theme }) => theme.palette.gradient.main};
   display: flex;
   flex-direction: column;
@@ -123,6 +130,7 @@ const Name = styled.h2`
   font-size: 40px;
   font-weight: ${({ theme }) => theme.typo.weight.medium};
   text-shadow: 0 4px 4px rgba(9, 46, 48, 0.2);
+  text-align: center;
 `;
 
 const Details = styled.div`

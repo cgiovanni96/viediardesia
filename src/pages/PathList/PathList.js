@@ -1,4 +1,5 @@
 import React from "react";
+import { FormattedMessage } from "react-intl";
 import { up } from "styled-breakpoints";
 import styled from "styled-components";
 import Navbar from "../../components/Navbar";
@@ -18,15 +19,33 @@ const PathList = () => {
                   <PathTitle>{path.title}</PathTitle>
                   <PathInfo>
                     <Info>
-                      <span>Dislivello: </span>
+                      <span>
+                        <FormattedMessage
+                          id="altitude"
+                          defaultMessage="Dislivello"
+                        />
+                        :{" "}
+                      </span>
                       {path.altitude}
                     </Info>
                     <Info>
-                      <span>Kilometraggio: </span>
+                      <span>
+                        <FormattedMessage
+                          id="height"
+                          defaultMessage="Chilometraggio"
+                        />
+                        :{" "}
+                      </span>
                       {path.height}
                     </Info>
                     <Info>
-                      <span>Durata: </span>
+                      <span>
+                        <FormattedMessage
+                          id="duration"
+                          defaultMessage="Durata"
+                        />
+                        :{" "}
+                      </span>{" "}
                       {path.duration}
                     </Info>
                   </PathInfo>

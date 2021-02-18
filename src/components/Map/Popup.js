@@ -1,5 +1,6 @@
 import { Popup as PopupGL } from "@urbica/react-map-gl";
 import React, { useContext, useEffect, useState } from "react";
+import { FormattedMessage } from "react-intl";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { LocaleContext } from "../../App";
@@ -12,11 +13,14 @@ const Popup = ({ lat, lng, id }) => {
     title: "",
     duration: "",
     altitude: "",
+    height: "",
   });
 
   useEffect(() => {
     const md = async () => {
+      console.log("id", id);
       const { metadata } = await getHikeInfo(id, locale.id);
+      console.log("Metadata", metadata);
       setInfo({
         title: metadata.title,
         duration: metadata.duration,
@@ -27,6 +31,8 @@ const Popup = ({ lat, lng, id }) => {
 
     md();
   }, [id, locale]);
+
+  console.log("INFO", info);
 
   return (
     <PopupGL
@@ -40,7 +46,9 @@ const Popup = ({ lat, lng, id }) => {
     >
       <Base>
         <HikeInfo>
-          <HikeDetail>Percorso:</HikeDetail>
+          <HikeDetail>
+            <FormattedMessage id="hike" defaultMessage="Percorso" />:
+          </HikeDetail>
           <HikeName>
             <Link to={`/${id}`}>{info.title} </Link>
           </HikeName>
@@ -48,17 +56,23 @@ const Popup = ({ lat, lng, id }) => {
 
         <InfoFooter>
           <HikeInfo>
-            <HikeDetail>Tempo:</HikeDetail>
+            <HikeDetail>
+              <FormattedMessage id="duration" defaultMessage="Durata" />:
+            </HikeDetail>
             <HikeTime>{info.duration} </HikeTime>
           </HikeInfo>
 
           <HikeInfo>
-            <HikeDetail>Dislivello:</HikeDetail>
+            <HikeDetail>
+              <FormattedMessage id="altitude" defaultMessage="Dislivello" />:
+            </HikeDetail>
             <HikeTime>{info.altitude} </HikeTime>
           </HikeInfo>
 
           <HikeInfo>
-            <HikeDetail>Lunghezza:</HikeDetail>
+            <HikeDetail>
+              <FormattedMessage id="height" defaultMessage="Chilometraggio" />:
+            </HikeDetail>
             <HikeTime>{info.height} </HikeTime>
           </HikeInfo>
         </InfoFooter>
