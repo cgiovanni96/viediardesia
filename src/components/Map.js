@@ -23,14 +23,7 @@ import Navbar from "./Navbar";
 mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
 
 const Map = () => {
-  const {
-    MapNavbar,
-    InterestingPoints,
-    Paths,
-    Popup,
-    Zone,
-    BackgroundPaths,
-  } = MapVDA;
+  const { InterestingPoints, Paths, Popup, Zone, BackgroundPaths } = MapVDA;
 
   const isDesktop = useMediaQuery({
     query: "(min-device-width: 1224px)",
@@ -66,7 +59,6 @@ const Map = () => {
 
   return (
     <LegendContext.Provider value={legendContext}>
-      {/* <MapNavbar /> */}
       <Navbar map />
       <MapGL
         style={{
