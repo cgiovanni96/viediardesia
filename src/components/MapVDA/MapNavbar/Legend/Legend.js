@@ -26,12 +26,12 @@ const Legend = () => {
     <Base>
       <Text onClick={() => toggleSelected()}>
         <span>
-          <FilterIcon size={28} color={"white"} />
+          <FilterIcon size={28} color={"black"} />
         </span>
         {selected ? (
-          <UpIcon size={24} color={"white"} />
+          <UpIcon size={24} color={"black"} />
         ) : (
-          <DownIcon size={24} color={"white"} />
+          <DownIcon size={24} color={"black"} />
         )}
       </Text>
       <Menu selected={selected}>
@@ -60,6 +60,7 @@ const Legend = () => {
 export default Legend;
 
 const Base = styled.div`
+  margin-left: 0.5rem;
   display: inline-block;
   padding: 0.5rem;
   border-radius: 0.5rem;
@@ -85,7 +86,7 @@ const Menu = styled.div`
   top: 60px;
   left: 00px;
   width: 100vw;
-  background: ${({ theme }) => theme.palette.accent.light};
+  background: ${({ theme }) => theme.palette.accent.main};
   color: black;
   min-height: 200px;
   max-height: 400px;
@@ -93,7 +94,7 @@ const Menu = styled.div`
   ${up("lg")} {
     display: ${(props) => (props.selected ? "inline-block" : "none")};
     position: absolute;
-    left: -200px;
+    left: -300px;
     top: 65px;
     padding: 1rem;
     width: 500px;

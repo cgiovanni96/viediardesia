@@ -85,11 +85,10 @@ const Base = styled.div`
   background: none;
   border: none;
   padding: 1em;
-  /* background-color: ${({ theme }) => theme.palette.accent.light}; */
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   font-family: ${({ theme }) => theme.typo.family.main};
+  color: black;
 `;
 
 const InfoFooter = styled.div`

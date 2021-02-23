@@ -3,11 +3,11 @@ import ReactMarkdown from "react-markdown";
 import imagesPlugin from "remark-images";
 import styled from "styled-components";
 
-import Image from "./Image";
+import ZoomableImage from "./ZoomableImage";
 
 const renderers = {
   image: ({ src, alt }) => {
-    return <Image src={src} alt={alt} />;
+    return <ZoomableImage src={src} alt={alt} />;
   },
   link: (arg) => {
     return <Link href={arg.href}> {arg.node.children[0].value} </Link>;

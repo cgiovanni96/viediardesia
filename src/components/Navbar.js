@@ -1,32 +1,35 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 import styled from "styled-components";
 import { up } from "styled-breakpoints";
 
 import LanguageSwitcher from "./LanguageSwitcher";
+import Legend from "./MapVDA/MapNavbar/Legend/Legend";
 
-const Navbar = () => {
+const Navbar = ({ map }) => {
   return (
-    <Base>
+    <Base map={map}>
       <Title>
-        <Link to="/">
-          <Logo src={"./logo.jpg"} alt={"logo"} />
-        </Link>
+        <RouterLink to="/">
+          <Logo src={"./layout/navLogo.jpg"} alt={"logo"} />
+        </RouterLink>
       </Title>
       <Navigation>
         <NavEl>
-          <Link to="/about">
+          <RouterLink to="/about">
             <FormattedMessage id="who" defaultMessage="CHI SIAMO" />
-          </Link>
+          </RouterLink>
         </NavEl>
         <NavEl>
-          <Link to="/paths">
+          <RouterLink to="/paths">
             <FormattedMessage id="list" defaultMessage="LISTA ITINERARI" />
-          </Link>
+          </RouterLink>
         </NavEl>
 
         <LanguageSwitcher />
+
+        {map && <Legend />}
       </Navigation>
     </Base>
   );
@@ -34,25 +37,26 @@ const Navbar = () => {
 
 export default Navbar;
 
-const Base = styled.section`
+const Base = styled.div`
   z-index: 8;
-  margin-top: 0.5rem;
-  height: 80px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  position: ${(props) => (props.map ? "absolute" : "relative")};
   display: flex;
   align-items: center;
   background: white;
-  padding: 0 1rem;
+  height: 100px;
   width: 80%;
-  margin: 0 auto;
+  padding: 0 1rem;
   color: black;
+  border-radius: 8px;
   /* padding: 0 4rem; */
+  left: ${(props) => (props.map ? "50%" : "none")};
+  -webkit-transform: ${(props) => (props.map ? "translateX(-50%)" : "none")};
+  transform: ${(props) => (props.map ? "translateX(-50%)" : "none")};
 `;
 
 const Title = styled.div`
-  font-family: ${({ theme }) => theme.typo.family.secondary};
-  font-weight: ${({ theme }) => theme.typo.weight.bold};
-  background: ${({ theme }) => theme.palette.gradient.main};
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   flex: 1;
 `;
@@ -64,12 +68,14 @@ const Logo = styled.img`
 
 const Navigation = styled.nav`
   font-family: ${({ theme }) => theme.typo.family.main};
+  font-size: 1.2rem;
   display: flex;
+  align-items: center;
 `;
 
 const NavEl = styled.div`
   display: none;
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-weight: ${(props) =>
     props.bold ? props.theme.typo.weight.bold : props.theme.typo.weight.light};
   ${up("md")} {

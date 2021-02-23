@@ -21,9 +21,22 @@ const Wrapper = styled.div`
   }
 `;
 
+const Bar = styled.div`
+  flex: 1;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* padding: 1em; */
+  height: 60px;
+  position: absolute;
+  background: ${({ theme }) => theme.palette.accent.main};
+`;
+
 const Layout = (props) => {
   return (
     <Base>
+      <Bar></Bar>
       <Wrapper>{props.children}</Wrapper>
     </Base>
   );

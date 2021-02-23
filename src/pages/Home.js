@@ -1,7 +1,10 @@
 import React from "react";
+import { FormattedMessage } from "react-intl";
 import { Link as RouterLink } from "react-router-dom";
 import { up } from "styled-breakpoints";
 import styled from "styled-components";
+
+import Image from "../components/Image";
 import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
 
@@ -10,25 +13,30 @@ const Home = () => {
     <Layout>
       <Navbar />
       <Main>
-        <Hero>
-          <span>
-            <BigLogo src={"./miniLogo.png"} alt={"big logo"} />
-          </span>
-        </Hero>
+        <RouterLink to="/about">
+          <Hero>
+            <Image src={"./layout/miniLogo.png"} alt={"big logo"} />
+          </Hero>
+        </RouterLink>
 
         <Welcome>
           <Description>
-            Viediardesia si propone come strumento per i sentieri
+            <FormattedMessage
+              id="homedescription"
+              defaultMessage="Home description"
+            />
           </Description>
 
           <Action>
-            <span>Clicca</span> sulla mappa per iniziare
+            <RouterLink to="/map">
+              <span>Clicca</span> sulla mappa per iniziare
+            </RouterLink>
           </Action>
         </Welcome>
 
         <Box>
           <RouterLink to={"/map"}>
-            <img src={"./screenMappa.png"} alt={"Mappa"} />
+            <Image src={"./screenMappa.png"} alt={"Mappa"} />
           </RouterLink>
         </Box>
       </Main>
@@ -51,12 +59,15 @@ const Hero = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  & img {
+    height: 250px;
+    width: 100%;
+  }
 `;
 
-const BigLogo = styled.img`
-  height: 250px;
-  width: 100%;
-`;
+// const BigLogo = styled(Image)`
+// `;
 
 const Box = styled.div`
   /* margin-top: 2rem; */
@@ -92,7 +103,7 @@ const Description = styled.p`
 const Action = styled.p`
   margin-top: 2rem;
   font-size: 3rem;
-  & > span {
+  & span {
     color: ${({ theme }) => theme.palette.accent.main};
   }
 `;

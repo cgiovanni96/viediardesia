@@ -6,8 +6,6 @@ import locales from "../utils/context/localesContext";
 const LanguageSwitcher = () => {
   const localesContext = useContext(LocaleContext);
 
-  console.log("LOCALE", localesContext);
-
   const langSwitch = (id) => {
     localesContext.setLocale(locales[id]);
   };
@@ -25,6 +23,7 @@ export default LanguageSwitcher;
 const Base = styled.div`
   display: flex;
   margin-left: 1rem;
+  font-weight: ${({ theme }) => theme.typo.weight.bold};
 `;
 
 const Lang = styled.div`

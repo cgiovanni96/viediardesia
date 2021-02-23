@@ -15,6 +15,7 @@ import data from "../data";
 import constants from "../utils/constants";
 import isEmpty from "../utils/isEmpty";
 import { LegendContext } from "../utils/context";
+import Navbar from "./Navbar";
 
 //need this statement due to a bug with mapbox-gl's version 2.0
 //which resulted in a conflict with webpack while processing the build for production
@@ -65,7 +66,8 @@ const Map = () => {
 
   return (
     <LegendContext.Provider value={legendContext}>
-      <MapNavbar />
+      {/* <MapNavbar /> */}
+      <Navbar map />
       <MapGL
         style={{
           width: "100vw",

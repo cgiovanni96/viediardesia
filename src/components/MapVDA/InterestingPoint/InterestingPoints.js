@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 import data from "../../../data";
 import { LegendContext, LocaleContext } from "../../../utils/context";
-import Image from "../../Image";
+import ZoomableImage from "../../ZoomableImage";
 import Text from "../../Text";
 
 const InterestingPoints = () => {
@@ -73,7 +73,7 @@ const InterestingPoints = () => {
         >
           <SelectedPoint>
             {selectedPoint.image ? (
-              <Image src={selectedPoint.image} alt={""} />
+              <ZoomableImage src={selectedPoint.image} alt={""} />
             ) : null}
             <Text document={selectedPoint.text[locale.id]} />
           </SelectedPoint>
@@ -92,6 +92,7 @@ const SelectedPoint = styled.div`
   align-items: center;
   text-align: center;
   margin-top: 1em;
+  color: black;
   & img {
     width: 100%;
     height: 100px;
