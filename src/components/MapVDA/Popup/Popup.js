@@ -19,9 +19,7 @@ const Popup = ({ lat, lng, id }) => {
 
   useEffect(() => {
     const md = async () => {
-      console.log("id", id);
       const { metadata } = await getHikeInfo(id, locale.id);
-      console.log("Metadata", metadata);
       setInfo({
         title: metadata.title,
         duration: metadata.duration,
@@ -32,8 +30,6 @@ const Popup = ({ lat, lng, id }) => {
 
     md();
   }, [id, locale]);
-
-  console.log("INFO", info);
 
   return (
     <PopupGL

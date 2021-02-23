@@ -6,6 +6,8 @@ import locales from "../utils/context/localesContext";
 const LanguageSwitcher = () => {
   const localesContext = useContext(LocaleContext);
 
+  console.log("LOCALE", localesContext);
+
   const langSwitch = (id) => {
     localesContext.setLocale(locales[id]);
   };

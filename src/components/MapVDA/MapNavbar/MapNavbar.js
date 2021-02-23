@@ -32,7 +32,6 @@ const Nav = styled.div`
   padding: 0 2rem;
   background: ${({ theme }) => theme.palette.gradient.light};
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   box-shadow: 0 4px 4px rgba(56, 89, 18, 0.1);
   font-family: "Poppins", sans-serif;

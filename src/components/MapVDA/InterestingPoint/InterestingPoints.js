@@ -30,7 +30,6 @@ const InterestingPoints = () => {
   return (
     <>
       {pointsToDisplay.map((pointOfInterest, id) => {
-        // console.log("PUNTO", pointOfInterest.name);
         return (
           <Marker
             key={id}
