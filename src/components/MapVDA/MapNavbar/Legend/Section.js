@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
 import styled from "styled-components";
 import { LocaleContext } from "../../../../App";
-import icons from "../../../../data/icons/icons";
+import data from "../../../../data";
 
 const Section = ({ legend }) => {
   const { locale } = useContext(LocaleContext);
 
   return legend.map((name) => {
-    const legend = icons[name];
+    const legend = data.icons[name];
 
     return (
       <Key key={legend.id}>

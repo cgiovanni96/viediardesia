@@ -4,9 +4,10 @@ import styled from "styled-components";
 import { ChevronDown as DownIcon } from "@styled-icons/boxicons-regular/ChevronDown";
 import { ChevronUp as UpIcon } from "@styled-icons/boxicons-regular/ChevronUp";
 import { FilterAlt as FilterIcon } from "@styled-icons/boxicons-regular/FilterAlt";
-import { pointsByCategories } from "../../../../data/points/points";
+// import { pointsByCategories } from "../../../../data/points";
+import data from "../../../../data";
 import Section from "./Section";
-import { LegendContext } from "../../Map";
+import { LegendContext } from "../../../Map";
 import { LocaleContext } from "../../../../App";
 
 const Legend = () => {
@@ -41,7 +42,7 @@ const Legend = () => {
               <Check value={0} name={"legend"} />
               Tutti
             </List>
-            {pointsByCategories.map((categories) => {
+            {data.points.map((categories) => {
               return (
                 <List key={categories.id}>
                   <Check value={categories.id} name={"legend"} />

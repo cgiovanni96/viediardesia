@@ -7,35 +7,44 @@ import mapboxgl from "mapbox-gl"; // This is a dependency of react-map-gl even i
 import "mapbox-gl/dist/mapbox-gl.css";
 import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
-import paths from "../../data/paths/paths";
-import center from "../../utils/constants/center";
-import mapStyles from "../../utils/constants/mapStyles";
-import token from "../../utils/constants/token";
-import isEmpty from "../../utils/isEmpty";
-import InterestingPoints from "./InterestingPoint/InterestingPoints";
-import MapNavbar from "./MapNavbar/MapNavbar";
-import Paths from "./Paths/Paths";
-import Popup from "./Popup";
-import "./Map.css";
-import Zone from "./Zone/Zone";
-import zones from "../../data/zones";
-import BackgroundPaths from "./BackgroundPaths";
-import legend from "../../utils/legend";
+import "./MapVDA/styles.css";
+
+import MapVDA from "./MapVDA";
+
+import constants from "../utils/constants";
+import isEmpty from "../utils/isEmpty";
+// import InterestingPoints from "./MapVDA/InterestingPoint/InterestingPoints";
+// import MapNavbar from "./MapVDA/MapNavbar/MapNavbar";
+// import Paths from "./MapVDA/Paths/Paths";
+// import Popup from "./MapVDA/Popup/Popup";
+// import Zone from "./MapVDA/Zone/Zone";
+// import BackgroundPaths from "./BackgroundPaths";
+import legendContext from "../utils/context/legendContext";
+import data from "../data";
+
 //need this statement due to a bug with mapbox-gl's version 2.0
 //which resulted in a conflict with webpack while processing the build for production
 // eslint-disable-next-line import/no-webpack-loader-syntax
 mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
 
-export const LegendContext = React.createContext(legend);
+export const LegendContext = React.createContext(legendContext);
 
 const Map = () => {
+  const {
+    MapNavbar,
+    InterestingPoints,
+    Paths,
+    Popup,
+    Zone,
+    BackgroundPaths,
+  } = MapVDA;
   const isDesktop = useMediaQuery({
     query: "(min-device-width: 1224px)",
   });
 
   const [viewport, setViewport] = useState({
-    latitude: center.latitude,
-    longitude: center.longitude,
+    latitude: constants.center.latitude,
+    longitude: constants.center.longitude,
     zoom: isDesktop ? 14.5 : 13,
   });
 
@@ -70,8 +79,8 @@ const Map = () => {
           height: "100vh",
         }}
         {...viewport}
-        accessToken={token}
-        mapStyle={mapStyles}
+        accessToken={constants.token}
+        mapStyle={constants.mapStyles}
         onViewportChange={setViewport}
         onClick={onMapClick}
       >
@@ -81,7 +90,7 @@ const Map = () => {
         <BackgroundPaths />
 
         <Paths
-          paths={paths}
+          paths={data.paths}
           onLayerClick={onLayerClick}
           isMapSelected={isMapSelected}
         />
@@ -90,7 +99,7 @@ const Map = () => {
           <Popup lat={popup.latitude} lng={popup.longitude} id={popup.id} />
         )}
 
-        {zones.map((zone) => {
+        {data.zones.map((zone) => {
           return <Zone key={zone.id} zone={zone} zoom={viewport.zoom} />;
         })}
 

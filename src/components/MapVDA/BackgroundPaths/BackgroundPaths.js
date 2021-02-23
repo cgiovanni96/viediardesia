@@ -1,6 +1,6 @@
 import { Layer, Source } from "@urbica/react-map-gl";
 import React from "react";
-import sentieriLavagna from "../../data/paths/sentieri-lavagna";
+import sentieriLavagna from "../../../data/paths/sentieri-lavagna";
 
 const BackgroundPaths = () => {
   return (

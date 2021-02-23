@@ -3,11 +3,10 @@ import { Marker, Popup } from "@urbica/react-map-gl";
 import React, { useContext, useEffect, useState } from "react";
 import styled from "styled-components";
 import { LocaleContext } from "../../../App";
-import { pointsByCategories } from "../../../data/points/points";
+import { pointsByCategories } from "../../../data/points";
 import Image from "../../Image";
 import Text from "../../Text";
-import { LegendContext } from "../Map";
-import "../Map.css";
+import { LegendContext } from "../../Map";
 
 const InterestingPoints = () => {
   const [selectedPoint, setSelectedPoint] = useState(null);
