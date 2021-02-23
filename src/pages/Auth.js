@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { up } from "styled-breakpoints";
 import styled from "styled-components";
+import Layout from "../components/Layout";
 
 const Auth = ({ setAuthorized }) => {
   const [password, setPassword] = useState("");
@@ -11,45 +11,22 @@ const Auth = ({ setAuthorized }) => {
   };
 
   return (
-    <Base>
-      <Wrapper>
-        <Form onSubmit={onSubmit}>
-          <Label>Password</Label>
-          <Input
-            name="password"
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <Button type="submit" value="Log" />
-        </Form>
-      </Wrapper>
-    </Base>
+    <Layout>
+      <Form onSubmit={onSubmit}>
+        <Label>Password</Label>
+        <Input
+          name="password"
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+        <Button type="submit" value="Log" />
+      </Form>
+    </Layout>
   );
 };
 
 export default Auth;
-
-const Base = styled.div`
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-`;
-
-const Wrapper = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  padding: 0 1em;
-  width: 100%;
-  ${up("lg")} {
-    width: 80%;
-    padding: none;
-  }
-`;
 
 const Form = styled.form`
   display: flex;

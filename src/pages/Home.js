@@ -2,58 +2,41 @@ import React from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { up } from "styled-breakpoints";
 import styled from "styled-components";
+import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
-    <Base>
-      <Wrapper>
-        <Navbar />
-        <Main>
-          <Hero>
-            <span>
-              <BigLogo src={"./logo-cerchio.png"} alt={"big logo"} />
-            </span>
+    <Layout>
+      <Navbar />
+      <Main>
+        <Hero>
+          <span>
+            <BigLogo src={"./miniLogo.png"} alt={"big logo"} />
+          </span>
+        </Hero>
 
-            <span>
-              <HeroTitle src={"./titolo.png"} alt={"titolo"} />
-            </span>
-          </Hero>
-          {/* <BigBox>
-            <img src={"./foto.jpg"} alt={"foto"} />
-          </BigBox> */}
-          <Box>
-            <RouterLink to={"/map"}>
-              <img src={"./screenMappa.png"} alt={"Mappa"} />
-            </RouterLink>
-          </Box>
-        </Main>
-      </Wrapper>
-    </Base>
+        <Welcome>
+          <Description>
+            Viediardesia si propone come strumento per i sentieri
+          </Description>
+
+          <Action>
+            <span>Clicca</span> sulla mappa per iniziare
+          </Action>
+        </Welcome>
+
+        <Box>
+          <RouterLink to={"/map"}>
+            <img src={"./screenMappa.png"} alt={"Mappa"} />
+          </RouterLink>
+        </Box>
+      </Main>
+    </Layout>
   );
 };
 
 export default Home;
-
-const Base = styled.div`
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background: #3e3936;
-`;
-
-const Wrapper = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: 0 1em;
-  width: 100%;
-  ${up("lg")} {
-    /* width: 80%; */
-    padding: none;
-  }
-`;
 
 const Main = styled.div`
   display: flex;
@@ -75,14 +58,9 @@ const BigLogo = styled.img`
   width: 100%;
 `;
 
-const HeroTitle = styled.img`
-  height: 90px;
-  width: 100%;
-`;
-
 const Box = styled.div`
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  /* margin-top: 2rem; */
+  /* margin-bottom: 0.5rem; */
   width: 100%;
   height: 500px;
   transition: all 0.2s ease-in-out;
@@ -100,12 +78,21 @@ const Box = styled.div`
   }
 `;
 
-// const BigBox = styled.div`
-//   width: 100%;
-//   height: 600px;
-//   transform: translateY(-20px);
-//   & > img {
-//     width: 100%;
-//     height: 100%;
-//   }
-// `;
+const Welcome = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  text-align: center;
+`;
+
+const Description = styled.p`
+  font-size: 2rem;
+`;
+
+const Action = styled.p`
+  margin-top: 2rem;
+  font-size: 3rem;
+  & > span {
+    color: ${({ theme }) => theme.palette.accent.main};
+  }
+`;

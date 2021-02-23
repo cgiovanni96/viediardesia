@@ -1,14 +1,14 @@
 const theme = {
   palette: {
     accent: {
-      medium: "#F1F1F1",
-      light: "#f5f5f5",
+      medium: "#2A332F",
+      main: "#9EC75C",
     },
 
     text: {
       light: "#E5FDFF",
       medium: "#B8E3E5",
-      default: "#232931",
+      default: "#FFF",
     },
 
     gradient: {
@@ -24,7 +24,7 @@ const theme = {
 
   typo: {
     family: {
-      main: "'Poppins', sans-serif;",
+      main: "'Inria Serif', serif;",
       secondary: "'Montserrat', sans-serif;",
     },
 
