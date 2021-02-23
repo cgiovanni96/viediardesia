@@ -1,6 +1,8 @@
 import React from "react";
 import { up } from "styled-breakpoints";
 import styled from "styled-components";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const Base = styled.div`
   display: flex;
@@ -33,11 +35,19 @@ const Bar = styled.div`
   background: ${({ theme }) => theme.palette.accent.main};
 `;
 
+const Main = styled.div`
+  flex: 1;
+`;
+
 const Layout = (props) => {
   return (
     <Base>
       <Bar></Bar>
-      <Wrapper>{props.children}</Wrapper>
+      <Wrapper>
+        <Navbar />
+        <Main>{props.children}</Main>
+        <Footer />
+      </Wrapper>
     </Base>
   );
 };

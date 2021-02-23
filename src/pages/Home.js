@@ -6,12 +6,11 @@ import styled from "styled-components";
 
 import Image from "../components/Image";
 import Layout from "../components/Layout";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
     <Layout>
-      <Navbar />
       <Main>
         <RouterLink to="/about">
           <Hero>

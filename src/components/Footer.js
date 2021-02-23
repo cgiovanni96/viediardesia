@@ -2,7 +2,7 @@ import React from "react";
 import { up } from "styled-breakpoints";
 import styled from "styled-components";
 
-import Image from "../../components/Image";
+import Image from "./Image";
 
 const Footer = () => {
   return (
@@ -23,11 +23,14 @@ const Footer = () => {
 export default Footer;
 
 const Base = styled.div`
+  margin: 0 auto;
   margin-top: 5rem;
-  /* height: 100px; */
+  margin-bottom: 1rem;
+  width: 80%;
   padding: 1rem;
   background: #eaeaea;
   color: ${({ theme }) => theme.palette.text.inverse};
+  border-radius: 8px;
   display: flex;
   justify-content: center;
 `;

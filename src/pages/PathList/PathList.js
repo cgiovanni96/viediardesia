@@ -67,7 +67,7 @@ const Main = styled.div`
 const List = styled.ul``;
 
 const Element = styled.li`
-  background: #26211e;
+  background: #272e2b;
   padding: 2rem 1rem;
   margin: 1rem 0;
   border-radius: 0.5rem;
@@ -77,7 +77,7 @@ const Element = styled.li`
 `;
 
 const PathTitle = styled.h2`
-  font-weight: bold;
+  font-weight: ${({ theme }) => theme.typo.weight.bold};
   font-size: 1.2rem;
 `;
 

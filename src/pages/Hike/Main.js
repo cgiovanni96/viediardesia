@@ -96,6 +96,8 @@ const Main = () => {
 export default Main;
 
 const Base = styled.section`
+  margin: 0 auto;
+  width: 80%;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -118,8 +120,7 @@ const Highlight = styled.div`
   border-radius: 16px;
 
   color: ${({ theme }) => theme.palette.text.light};
-  box-shadow: ${({ theme }) => theme.palette.shadow.gradient},
-    inset 0 0 0 4px rgba(21, 111, 121, 0.3);
+  box-shadow: inset 0 0 0 4px rgba(21, 111, 121, 0.3);
 
   ${up("md")} {
     width: 60%;
@@ -164,10 +165,9 @@ const Container = styled.div`
 const Article = styled.div`
   order: 2;
   width: 100%;
-  background: ${({ theme }) => theme.palette.accent.light};
+  background: #272e2b;
   padding: 2rem 3rem;
   border-radius: 16px;
-  box-shadow: ${({ theme }) => theme.palette.shadow.default};
 
   ${up("lg")} {
     width: 80%;
@@ -210,7 +210,7 @@ const Article = styled.div`
 
 const Side = styled.div`
   flex: 1;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 
   ${up("lg")} {
     margin-left: 1rem;
@@ -222,7 +222,6 @@ const Side = styled.div`
 const Back = styled.div`
   padding: 1rem 0;
   border-radius: 8px;
-  box-shadow: ${({ theme }) => theme.palette.shadow.gradient};
   background: ${({ theme }) => theme.palette.gradient.light};
   text-align: center;
   color: ${({ theme }) => theme.palette.text.light};
@@ -239,9 +238,8 @@ const Back = styled.div`
 const Info = styled.div`
   margin-top: 1.5rem;
   padding: 1rem 0.5rem;
-  background: ${({ theme }) => theme.palette.accent.light};
+  background: #272e2b;
   border-radius: 8px;
-  box-shadow: ${({ theme }) => theme.palette.shadow.default};
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -6,8 +6,7 @@ const theme = {
     },
 
     text: {
-      light: "#E5FDFF",
-      medium: "#B8E3E5",
+      inverse: "#000",
       default: "#FFF",
     },
 

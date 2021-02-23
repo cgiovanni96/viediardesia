@@ -44,11 +44,10 @@ const Message = styled.div`
   margin: 0 auto;
   order: 2;
   width: 100%;
-  background: #26211e;
+  background: #272e2b;
+  border-radius: 8px;
   color: white;
   padding: 2rem 3rem;
-  border-radius: 16px;
-  box-shadow: ${({ theme }) => theme.palette.shadow.default};
 
   ${up("lg")} {
     width: 80%;
@@ -56,9 +55,11 @@ const Message = styled.div`
   }
 
   & > p {
+    text-align: justify;
+    color: #ededed;
     margin-bottom: 1rem;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
 
     & > * {
       float: left;
