@@ -5,7 +5,7 @@ import { IntlProvider } from "react-intl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 import About from "./pages/About";
-import Auth from "./pages/Auth";
+// import Auth from "./pages/Auth";
 import Hike from "./pages/Hike/Hike";
 import Home from "./pages/Home";
 import Map from "./pages/Map";
@@ -18,7 +18,7 @@ import getLocalMessages from "./utils/getLocalMessages";
 const App = () => {
   const [locale, setLocale] = useState(localesContext.it);
   const value = { locale, setLocale };
-  const [authorized, setAuthorized] = useState(false);
+  // const [authorized, setAuthorized] = useState(false);
 
   const [messages, setMessages] = useState();
 
@@ -32,7 +32,7 @@ const App = () => {
   return (
     <LocaleContext.Provider value={value}>
       <IntlProvider locale={value.locale.locale} messages={messages}>
-        {authorized ? (
+        {true ? (
           <Router>
             <Routes>
               <Route path="/" element={<Home />} />
@@ -42,9 +42,8 @@ const App = () => {
               <Route path="/paths" element={<PathList />} />
             </Routes>
           </Router>
-        ) : (
-          <Auth setAuthorized={setAuthorized} />
-        )}
+        ) : // <Auth setAuthorized={setAuthorized} />
+        null}
       </IntlProvider>
     </LocaleContext.Provider>
   );
