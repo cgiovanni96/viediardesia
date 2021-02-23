@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { ChevronDown as DownIcon } from "@styled-icons/boxicons-regular/ChevronDown";
 import { ChevronUp as UpIcon } from "@styled-icons/boxicons-regular/ChevronUp";
 import { FilterAlt as FilterIcon } from "@styled-icons/boxicons-regular/FilterAlt";
-import { pointsByCategories } from "../../../../points/points";
+import { pointsByCategories } from "../../../../data/points/points";
 import Section from "./Section";
 import { LegendContext } from "../../Map";
 import { LocaleContext } from "../../../../App";

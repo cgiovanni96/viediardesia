@@ -27,7 +27,7 @@ const App = () => {
   return (
     <LocaleContext.Provider value={value}>
       <IntlProvider locale={value.locale.locale} messages={messages}>
-        {authorized ? (
+        {true ? (
           <Router>
             <Routes>
               <Route path="/" element={<Home />} />

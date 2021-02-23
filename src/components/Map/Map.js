@@ -7,7 +7,7 @@ import mapboxgl from "mapbox-gl"; // This is a dependency of react-map-gl even i
 import "mapbox-gl/dist/mapbox-gl.css";
 import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
-import paths from "../../paths/paths";
+import paths from "../../data/paths/paths";
 import center from "../../utils/constants/center";
 import mapStyles from "../../utils/constants/mapStyles";
 import token from "../../utils/constants/token";
@@ -18,7 +18,7 @@ import Paths from "./Paths/Paths";
 import Popup from "./Popup";
 import "./Map.css";
 import Zone from "./Zone/Zone";
-import zones from "../../zones";
+import zones from "../../data/zones";
 import BackgroundPaths from "./BackgroundPaths";
 import legend from "../../utils/legend";
 //need this statement due to a bug with mapbox-gl's version 2.0
