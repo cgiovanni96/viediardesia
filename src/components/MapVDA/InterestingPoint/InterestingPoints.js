@@ -2,11 +2,11 @@ import { BeenHere as HereIcon } from "@styled-icons/boxicons-solid/BeenHere";
 import { Marker, Popup } from "@urbica/react-map-gl";
 import React, { useContext, useEffect, useState } from "react";
 import styled from "styled-components";
-import { LocaleContext } from "../../../App";
-import { pointsByCategories } from "../../../data/points";
+
+import data from "../../../data";
+import { LegendContext, LocaleContext } from "../../../utils/context";
 import Image from "../../Image";
 import Text from "../../Text";
-import { LegendContext } from "../../Map";
 
 const InterestingPoints = () => {
   const [selectedPoint, setSelectedPoint] = useState(null);
@@ -16,13 +16,13 @@ const InterestingPoints = () => {
 
   useEffect(() => {
     if (legendContext.checked === null || legendContext.checked === String(0)) {
-      const mapped = pointsByCategories.map((cat) => {
+      const mapped = data.points.map((cat) => {
         return cat.points;
       });
 
       setPointsToDisplay(mapped.flat());
     } else {
-      const mapped = pointsByCategories[legendContext.checked - 1].points;
+      const mapped = data.points[legendContext.checked - 1].points;
       setPointsToDisplay(mapped);
     }
   }, [legendContext.checked]);

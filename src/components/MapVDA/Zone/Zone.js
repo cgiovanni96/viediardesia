@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
 import { Marker, Popup } from "@urbica/react-map-gl";
 import styled from "styled-components";
-// import "../Map.css";
-import { LocaleContext } from "../../../App";
+
+import { LocaleContext } from "../../../utils/context";
 import Text from "../../Text";
 
 const Zone = ({ zoom, zone }) => {

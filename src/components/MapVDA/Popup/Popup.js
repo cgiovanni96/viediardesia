@@ -3,7 +3,8 @@ import React, { useContext, useEffect, useState } from "react";
 import { FormattedMessage } from "react-intl";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { LocaleContext } from "../../../App";
+
+import { LocaleContext } from "../../../utils/context";
 import getHikeInfo from "../../../utils/hooks/getHikeInfo";
 
 const Popup = ({ lat, lng, id }) => {

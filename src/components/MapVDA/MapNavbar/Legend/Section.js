@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import styled from "styled-components";
-import { LocaleContext } from "../../../../App";
 import data from "../../../../data";
+import { LocaleContext } from "../../../../utils/context";
 
 const Section = ({ legend }) => {
   const { locale } = useContext(LocaleContext);

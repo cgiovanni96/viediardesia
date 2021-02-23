@@ -1,8 +1,9 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import images from "remark-images";
-import Image from "./Image";
+import imagesPlugin from "remark-images";
 import styled from "styled-components";
+
+import Image from "./Image";
 
 const renderers = {
   image: ({ src, alt }) => {
@@ -17,7 +18,7 @@ const Text = ({ document }) => {
   return (
     <ReactMarkdown
       renderers={renderers}
-      plugins={[images]}
+      plugins={[imagesPlugin]}
       children={document}
     />
   );

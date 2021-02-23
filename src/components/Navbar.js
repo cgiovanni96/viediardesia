@@ -3,6 +3,7 @@ import { FormattedMessage } from "react-intl";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { up } from "styled-breakpoints";
+
 import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navbar = () => {

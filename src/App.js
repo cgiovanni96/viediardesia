@@ -8,21 +8,19 @@ import Home from "./pages/Home";
 import Hike from "./pages/Hike/Hike";
 import Auth from "./pages/Auth";
 
-import locales from "./languages/locales";
-import Italian from "./languages/it-IT.json";
-import English from "./languages/en-US.json";
+import locales from "./utils/context/localesContext";
 import About from "./pages/About";
 import Map from "./pages/Map";
 import PathList from "./pages/PathList/PathList";
-
-export const LocaleContext = React.createContext(locales);
+import { LocaleContext } from "./utils/context";
+import getLocalMessages from "./utils/getLocalMessages";
 
 const App = () => {
   const [locale, setLocale] = useState(locales.it);
   const value = { locale, setLocale };
   const [authorized, setAuthorized] = useState(false);
 
-  let messages = locale.id === "it" ? Italian : English;
+  let messages = getLocalMessages(locales.id);
 
   return (
     <LocaleContext.Provider value={value}>

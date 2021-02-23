@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import styled from "styled-components";
-import { LocaleContext } from "../App";
-import locales from "../languages/locales";
+import { LocaleContext } from "../utils/context";
+import locales from "../utils/context/localesContext";
 
 const LanguageSwitcher = () => {
   const localesContext = useContext(LocaleContext);

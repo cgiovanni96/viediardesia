@@ -1,12 +1,13 @@
+import React, { useContext, useEffect, useState } from "react";
 import { Clock as ClockIcon } from "@styled-icons/fa-regular/Clock";
 import { ArrowLeftCircle as BackIcon } from "@styled-icons/feather/ArrowLeftCircle";
 import { Mountains as DistanceIcon } from "@styled-icons/foundation/Mountains";
-import React, { useContext, useEffect, useState } from "react";
 import { FormattedMessage } from "react-intl";
 import { Link, useParams } from "react-router-dom";
 import { up } from "styled-breakpoints";
 import styled from "styled-components";
-import { LocaleContext } from "../../App";
+
+import { LocaleContext } from "../../utils/context";
 import Text from "../../components/Text";
 import getHikeInfo from "../../utils/hooks/getHikeInfo";
 import Gallery from "../../components/Gallery";

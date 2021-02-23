@@ -11,23 +11,15 @@ import "./MapVDA/styles.css";
 
 import MapVDA from "./MapVDA";
 
+import data from "../data";
 import constants from "../utils/constants";
 import isEmpty from "../utils/isEmpty";
-// import InterestingPoints from "./MapVDA/InterestingPoint/InterestingPoints";
-// import MapNavbar from "./MapVDA/MapNavbar/MapNavbar";
-// import Paths from "./MapVDA/Paths/Paths";
-// import Popup from "./MapVDA/Popup/Popup";
-// import Zone from "./MapVDA/Zone/Zone";
-// import BackgroundPaths from "./BackgroundPaths";
-import legendContext from "../utils/context/legendContext";
-import data from "../data";
+import { LegendContext } from "../utils/context";
 
 //need this statement due to a bug with mapbox-gl's version 2.0
 //which resulted in a conflict with webpack while processing the build for production
 // eslint-disable-next-line import/no-webpack-loader-syntax
 mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
-
-export const LegendContext = React.createContext(legendContext);
 
 const Map = () => {
   const {
@@ -38,6 +30,7 @@ const Map = () => {
     Zone,
     BackgroundPaths,
   } = MapVDA;
+
   const isDesktop = useMediaQuery({
     query: "(min-device-width: 1224px)",
   });

@@ -4,11 +4,10 @@ import styled from "styled-components";
 import { ChevronDown as DownIcon } from "@styled-icons/boxicons-regular/ChevronDown";
 import { ChevronUp as UpIcon } from "@styled-icons/boxicons-regular/ChevronUp";
 import { FilterAlt as FilterIcon } from "@styled-icons/boxicons-regular/FilterAlt";
-// import { pointsByCategories } from "../../../../data/points";
+
 import data from "../../../../data";
 import Section from "./Section";
-import { LegendContext } from "../../../Map";
-import { LocaleContext } from "../../../../App";
+import { LegendContext, LocaleContext } from "../../../../utils/context";
 
 const Legend = () => {
   const [selected, setSelected] = useState(false);
