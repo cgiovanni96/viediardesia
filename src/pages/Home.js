@@ -60,19 +60,17 @@ const Hero = styled.div`
   align-items: center;
 
   & img {
-    height: 250px;
-    width: 100%;
+    object-fit: cover;
+    display: block;
+    max-height: 250px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
   }
 `;
 
-// const BigLogo = styled(Image)`
-// `;
-
 const Box = styled.div`
-  /* margin-top: 2rem; */
-  /* margin-bottom: 0.5rem; */
   width: 100%;
-  height: 500px;
   transition: all 0.2s ease-in-out;
 
   ${up("lg")} {
