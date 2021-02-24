@@ -62,9 +62,9 @@ export default Legend;
 const Base = styled.div`
   margin-left: 0.5rem;
   display: inline-block;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  /* padding: 0.5rem; */
+  /* border-radius: 0.5rem; */
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); */
   ${up("lg")} {
     position: relative;
   }
@@ -83,11 +83,11 @@ const Menu = styled.div`
   padding-left: 2rem;
   position: fixed;
   z-index: 4;
-  top: 60px;
+  top: 110px;
   left: 00px;
   width: 100vw;
-  background: ${({ theme }) => theme.palette.accent.main};
-  color: black;
+  background: #272e2b;
+  color: ${({ theme }) => theme.palette.text.default};
   min-height: 200px;
   max-height: 400px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

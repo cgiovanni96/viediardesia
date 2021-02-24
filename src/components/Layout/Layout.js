@@ -2,7 +2,7 @@ import React from "react";
 import { up } from "styled-breakpoints";
 import styled from "styled-components";
 import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar/Navbar";
 
 const Base = styled.div`
   display: flex;

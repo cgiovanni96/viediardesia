@@ -27,7 +27,7 @@ const Base = styled.div`
   margin-top: 5rem;
   margin-bottom: 1rem;
   width: 80%;
-  padding: 1rem;
+  /* padding: 1rem; */
   background: #eaeaea;
   color: ${({ theme }) => theme.palette.text.inverse};
   border-radius: 8px;
@@ -37,11 +37,15 @@ const Base = styled.div`
 
 const Collaboration = styled.ul`
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 
   ${up("lg")} {
     width: 50%;
+    flex-direction: row;
   }
 `;
 
-const El = styled.li``;
+const El = styled.li`
+  margin: 1.5rem 0;
+`;

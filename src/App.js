@@ -27,7 +27,7 @@ const App = () => {
   return (
     <LocaleContext.Provider value={value}>
       <IntlProvider locale={value.locale.locale} messages={messages}>
-        {authorized ? <Router /> : <Auth setAuthorized={setAuthorized} />}
+        {true ? <Router /> : <Auth setAuthorized={setAuthorized} />}
       </IntlProvider>
     </LocaleContext.Provider>
   );
