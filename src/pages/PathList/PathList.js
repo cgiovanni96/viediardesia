@@ -1,8 +1,10 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
+import { up } from "styled-breakpoints";
 import styled from "styled-components";
-import Layout from "../../components/Layout/Layout";
+import { Link as RouterLink } from "react-router-dom";
 
+import Layout from "../../components/Layout/Layout";
 import pathList from "./list";
 
 const PathList = () => {
@@ -13,7 +15,9 @@ const PathList = () => {
           {pathList.map((path) => {
             return (
               <Element key={path.id}>
-                <PathTitle>{path.title}</PathTitle>
+                <PathTitle>
+                  <RouterLink to={`/${path.id}`}>{path.title}</RouterLink>
+                </PathTitle>
                 <PathInfo>
                   <Info>
                     <span>
@@ -77,14 +81,20 @@ const Element = styled.li`
 const PathTitle = styled.h2`
   font-weight: ${({ theme }) => theme.typo.weight.bold};
   font-size: 1.2rem;
+  text-align: center;
 `;
 
 const PathInfo = styled.ul`
-  width: 50%;
   margin: 0 auto;
   margin-top: 1rem;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+
+  ${up("md")} {
+    width: 50%;
+    flex-direction: row;
+  }
 `;
 
 const Info = styled.li`

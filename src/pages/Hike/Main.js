@@ -110,6 +110,7 @@ const Base = styled.section`
 const Highlight = styled.div`
   width: 100%;
   margin: 0 auto;
+  margin-top: 1rem;
   padding: 1rem;
   /* height: 110px; */
   background: ${({ theme }) => theme.palette.gradient.main};
@@ -128,9 +129,9 @@ const Highlight = styled.div`
 `;
 
 const Name = styled.h2`
-  font-family: ${({ theme }) => theme.typo.family.secondary};
-  font-size: 40px;
-  font-weight: ${({ theme }) => theme.typo.weight.medium};
+  /* font-family: ${({ theme }) => theme.typo.family.secondary}; */
+  font-size: 1.8rem;
+  font-weight: ${({ theme }) => theme.typo.weight.bold};
   text-shadow: 0 4px 4px rgba(9, 46, 48, 0.2);
   text-align: center;
 `;
@@ -228,7 +229,7 @@ const Back = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
+  font-size: 1.3rem;
 
   & span {
     margin-left: 0.2rem;
