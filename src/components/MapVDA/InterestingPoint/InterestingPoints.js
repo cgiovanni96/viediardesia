@@ -5,8 +5,8 @@ import styled from "styled-components";
 
 import data from "../../../data";
 import { LegendContext, LocaleContext } from "../../../utils/context";
-import ZoomableImage from "../../ZoomableImage";
-import Text from "../../Text";
+import ZoomableImage from "../../Helpers/ZoomableImage";
+import Text from "../../Helpers/Text";
 
 const InterestingPoints = () => {
   const [selectedPoint, setSelectedPoint] = useState(null);

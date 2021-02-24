@@ -1,15 +1,13 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
-import Layout from "../../components/Layout";
-import Navbar from "../../components/Navbar";
+import Layout from "../../components/Layout/Layout";
 
 import pathList from "./list";
 
 const PathList = () => {
   return (
     <Layout>
-      <Navbar />
       <Main>
         <List>
           {pathList.map((path) => {

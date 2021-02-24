@@ -4,8 +4,8 @@ import { Link as RouterLink } from "react-router-dom";
 import { up } from "styled-breakpoints";
 import styled from "styled-components";
 
-import Image from "../components/Image";
-import Layout from "../components/Layout";
+import Image from "../components/Helpers/Image";
+import Layout from "../components/Layout/Layout";
 // import Navbar from "../components/Navbar";
 
 const Home = () => {

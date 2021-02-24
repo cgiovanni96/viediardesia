@@ -2,16 +2,14 @@ import React from "react";
 import { useIntl } from "react-intl";
 import styled from "styled-components";
 import { up } from "styled-breakpoints";
-import Navbar from "../components/Navbar";
-import Text from "../components/Text";
-import Layout from "../components/Layout";
+import Text from "../components/Helpers/Text";
+import Layout from "../components/Layout/Layout";
 
 const About = () => {
   const intl = useIntl(0);
 
   return (
     <Layout>
-      <Navbar />
       <Main>
         <Message>
           <Text

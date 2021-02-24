@@ -8,7 +8,7 @@ import { up } from "styled-breakpoints";
 import styled from "styled-components";
 
 import { LocaleContext } from "../../utils/context";
-import Text from "../../components/Text";
+import Text from "../../components/Helpers/Text";
 import getHikeInfo from "../../utils/hooks/getHikeInfo";
 import Gallery from "../../components/Gallery";
 

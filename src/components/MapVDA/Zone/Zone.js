@@ -3,7 +3,7 @@ import { Marker, Popup } from "@urbica/react-map-gl";
 import styled from "styled-components";
 
 import { LocaleContext } from "../../../utils/context";
-import Text from "../../Text";
+import Text from "../../Helpers/Text";
 
 const Zone = ({ zoom, zone }) => {
   const [selectedPoint, setSelectedPoint] = useState(null);
