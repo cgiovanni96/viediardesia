@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import Layout from "../components/Layout";
 
 const Auth = ({ setAuthorized }) => {
   const [password, setPassword] = useState("");
@@ -11,7 +10,7 @@ const Auth = ({ setAuthorized }) => {
   };
 
   return (
-    <Layout>
+    <Base>
       <Form onSubmit={onSubmit}>
         <Label>Password</Label>
         <Input
@@ -22,11 +21,20 @@ const Auth = ({ setAuthorized }) => {
         />
         <Button type="submit" value="Log" />
       </Form>
-    </Layout>
+    </Base>
   );
 };
 
 export default Auth;
+
+const Base = styled.section`
+  flex: 1;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
 const Form = styled.form`
   display: flex;
