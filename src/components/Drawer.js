@@ -30,19 +30,20 @@ const Base = styled.div`
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
-  display: ${(props) => (props.active ? "flex" : "none")};
+  right: ${(props) => (props.active ? "0" : "100vw")};
+  transition: all 1s ease-in-out;
+  display: flex;
   flex-direction: column;
 
   ${up("md")} {
-    right: 70%;
+    right: ${(props) => (props.active ? "70%" : "100vw")};
   }
 `;
 
 const Header = styled.header`
   background: ${({ theme }) => theme.palette.accent.main};
   color: ${({ theme }) => theme.palette.text.inverse};
-  padding: 1rem;
+  /* padding: 1rem; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -57,6 +58,7 @@ const Main = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
+  overflow: scroll;
   align-items: center;
 
   & img {

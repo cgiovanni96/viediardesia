@@ -27,6 +27,6 @@ const Text = ({ document }) => {
 export default Text;
 
 const Link = styled.a`
-  color: blue;
+  color: ${({ theme }) => theme.palette.accent.main};
   text-decoration: underline;
 `;
