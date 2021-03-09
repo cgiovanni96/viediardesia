@@ -24,7 +24,7 @@ const theme = {
   typo: {
     family: {
       main: "'Inria Serif', serif;",
-      secondary: "'Montserrat', sans-serif;",
+      secondary: "'Lato', sans-serif;",
     },
 
     weight: {

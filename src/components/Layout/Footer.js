@@ -1,4 +1,5 @@
 import React from "react";
+import { FormattedMessage } from "react-intl";
 import { up } from "styled-breakpoints";
 import styled from "styled-components";
 
@@ -8,13 +9,37 @@ const Footer = () => {
   return (
     <Base>
       <Collaboration>
-        <El>
-          <Image src={"./layout/unige.png"} alt={"UNIGE"} />
-        </El>
+        <Div>
+          <El>
+            <FormattedMessage
+              id="tesi"
+              defaultMessage="Tesi di Laurea Magistrale - Gabriele Ghisleni"
+            />
+          </El>
+          <El>
+            <a href={"https://unige.it/it"}>
+              <Image src={"./layout/unige.png"} alt={"UNIGE"} />
+            </a>
+          </El>
+        </Div>
 
-        <El>
-          <Image src={"./layout/pietreparlanti.png"} alt={"Pietre Parlanti"} />
-        </El>
+        <Div>
+          <El>
+            <FormattedMessage
+              id="pietreparlanti"
+              defaultMessage="Pietre Parlanti"
+            />
+          </El>
+
+          <El>
+            <a href={"https://pietreparlantiblog.wordpress.com/informazioni/"}>
+              <Image
+                src={"./layout/pietreparlanti.png"}
+                alt={"Pietre Parlanti"}
+              />
+            </a>
+          </El>
+        </Div>
       </Collaboration>
     </Base>
   );
@@ -27,7 +52,6 @@ const Base = styled.div`
   margin-top: 5rem;
   margin-bottom: 1rem;
   width: 80%;
-  /* padding: 1rem; */
   background: #eaeaea;
   color: ${({ theme }) => theme.palette.text.inverse};
   border-radius: 8px;
@@ -41,11 +65,22 @@ const Collaboration = styled.ul`
   justify-content: space-between;
 
   ${up("lg")} {
-    width: 50%;
+    width: 100%;
     flex-direction: row;
   }
 `;
 
+const Div = styled.div`
+  display: flex;
+  margin: 0 1rem;
+  max-width: 50%;
+  align-items: center;
+  justify-content: center;
+`;
+
 const El = styled.li`
-  margin: 1.5rem 0;
+  margin: 1.5rem 1rem;
+  font-size: 0.8rem;
+  text-align: justify;
+  max-width: 40%;
 `;

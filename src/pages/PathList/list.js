@@ -25,7 +25,7 @@ const pathList = [
 
   {
     id: "percorso5",
-    title: "Cavi - Cerreto - Sant'Eufemiano - Barassi - Monte Zucchetto",
+    title: "Cavi - Cerreto - Sant'Eufemiano - Barassi - Selva",
     altitude: "490m",
     duration: "3h30m",
     height: "7.8km",
@@ -33,7 +33,7 @@ const pathList = [
 
   {
     id: "percorso6",
-    title: "Lavagna - Santa Giulia - Sorlana - Monte Zucchetto",
+    title: "Lavagna - Santa Giulia - Sorlana - Selva",
     altitude: "490m",
     duration: "2h30m",
     height: "6.1km",

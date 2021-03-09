@@ -28,7 +28,7 @@ const Home = () => {
 
           <Action>
             <RouterLink to="/map">
-              <span>Clicca</span> sulla mappa per iniziare
+              <FormattedMessage id="cta" defaultMessage="Click on the image" />
             </RouterLink>
           </Action>
         </Welcome>
