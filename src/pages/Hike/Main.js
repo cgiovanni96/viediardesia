@@ -1,46 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 
 import { up } from "styled-breakpoints";
 import styled from "styled-components";
 
-import Gallery from "../../components/Gallery";
-import Primo from "./Hikes/Primo";
-import Secondo from "./Hikes/Secondo";
+import Image from "../../components/Helpers/ZoomableImage";
 
 const Main = () => {
   const { hike } = useParams();
+  const [imgPath, setImgPath] = useState("1");
 
-  console.log("HIKE", hike);
-
-  const Component = hike === "percorso1" ? Primo : Secondo;
-  // const { locale } = useContext(LocaleContext);
-
-  // const [text, setText] = useState("");
-  // const [metadata, setMetadata] = useState({
-  //   title: "",
-  //   altitude: "",
-  //   duration: "",
-  //   height: "",
-  // });
-
-  // useEffect(() => {
-  //   const md = async () => {
-  //     const { content, metadata } = await getHikeInfo(hike, locale.id);
-  //     setText(content);
-  //     setMetadata(metadata);
-  //   };
-
-  //   md();
-  // }, [hike, locale]);
+  useEffect(() => {
+    const path = hike[hike.length - 1];
+    setImgPath(path);
+  }, [hike]);
 
   return (
     <Base>
       <Container>
-        <Component />
+        <Image src={`./hikes/rete/${imgPath}.jpg`} alt={"somethign"} />
       </Container>
-
-      <Gallery />
     </Base>
   );
 };
@@ -67,5 +46,9 @@ const Container = styled.div`
 
   ${up("lg")} {
     flex-direction: row;
+  }
+
+  & img {
+    max-width: 100%;
   }
 `;

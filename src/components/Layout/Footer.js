@@ -15,6 +15,10 @@ const Footer = () => {
               id="tesi"
               defaultMessage="Tesi di Laurea Magistrale - Gabriele Ghisleni"
             />
+            <span>
+              <p>Relatore: Pierluigi Brandolini</p>
+              <p>Correlatore: Renata Allegri</p>
+            </span>
           </El>
           <El>
             <a href={"https://unige.it/it"}>
@@ -34,7 +38,7 @@ const Footer = () => {
           <El>
             <a href={"https://pietreparlantiblog.wordpress.com/informazioni/"}>
               <Image
-                src={"./layout/pietreparlanti.png"}
+                src={"./layout/pietre-parlanti.png"}
                 alt={"Pietre Parlanti"}
               />
             </a>
@@ -83,4 +87,14 @@ const El = styled.li`
   font-size: 0.8rem;
   text-align: justify;
   max-width: 40%;
+
+  & img {
+    height: 120px;
+    width: auto;
+  }
+
+  & span {
+    display: inline-block;
+    margin-top: 1em;
+  }
 `;

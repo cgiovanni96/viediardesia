@@ -10,7 +10,7 @@ const Auth = ({ setAuthorized }) => {
   };
 
   return (
-    <Base>
+    <Base small>
       <Form onSubmit={onSubmit}>
         <Label>Password</Label>
         <Input

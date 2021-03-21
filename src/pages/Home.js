@@ -5,6 +5,7 @@ import { up } from "styled-breakpoints";
 import styled from "styled-components";
 
 import Image from "../components/Helpers/Image";
+import Footer from "../components/Layout/Footer";
 import Layout from "../components/Layout/Layout";
 // import Navbar from "../components/Navbar";
 
@@ -39,6 +40,8 @@ const Home = () => {
           </RouterLink>
         </Box>
       </Main>
+
+      <Footer />
     </Layout>
   );
 };

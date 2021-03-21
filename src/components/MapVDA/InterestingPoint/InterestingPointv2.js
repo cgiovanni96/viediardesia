@@ -73,6 +73,6 @@ const InterestingPointsv2 = () => {
 export default InterestingPointsv2;
 
 const Icon = styled.img`
-  width: 70%;
-  height: 70%;
+  width: 50%;
+  height: 50%;
 `;

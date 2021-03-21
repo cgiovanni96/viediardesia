@@ -1,7 +1,6 @@
 import React from "react";
 import { up } from "styled-breakpoints";
 import styled from "styled-components";
-import Footer from "./Footer";
 import Navbar from "./Navbar/Navbar";
 
 const Base = styled.div`
@@ -46,7 +45,6 @@ const Layout = (props) => {
       <Wrapper>
         <Navbar />
         <Main>{props.children}</Main>
-        <Footer />
       </Wrapper>
     </Base>
   );

@@ -142,6 +142,32 @@ const church = [
       eng: "",
     },
   },
+
+  {
+    name: "church13",
+    image: "./points/church/church13.jpeg",
+    icon: "church",
+    position: { latitude: 44.330490781455005, longitude: 9.3568217754364015 },
+    text: {
+      it:
+        "La Basilica venne fatta costruire da Innocenzo IV nel 1245., Accanto l'ingresso alla Basilica: utilizzo di ardeisa, marmo e sovraporta dipinto, l'utilizzo di ardesia e marmo proveniente dalle Apuane.\n\nL’ardesia è presente anche nell’edilizia monumentale, con funzione portante o decorativa, come nella bellissima Basilica dei Fieschi eretta dai conti di Lavagna. Con la “pietra nera” vengono realizzati pavimenti, scale, colonne, sovrapposte, portali, camini, capitelli, lapidi, ma può avere un uso anche più modesti per trogoli, lavatoi, panche, condotte per l’acqua; gli scarti di cava servono poi per la costruzione dei muretti a secco di contenimento delle fasce o per delimitare le singole proprietà. Tutte queste opere sono ben visibili sui cammini dei sentieri e aggiungono valore artistico-culturale ai percorsi.",
+      eng:
+        'Slate is also present in monumental buildings, with a load-bearing or decorative function, as in the beautiful Fieschi Basilica built by the Counts of Lavagna. The "black stone" is used to make floors, stairs, columns, superimpositions, portals, fireplaces, capitals, tombstones, but it can also have a more modest use for troughs, wash-houses, benches, water pipes; the quarry scraps are then used for the construction of dry stone walls to contain the strips or to delimit individual properties. All these works are clearly visible on the paths and add artistic and cultural value to the routes. The Basilica was built by Innocent IV in 1245., Next to the entrance to the Basilica: use of slate, marble and painted over door, the use of slate and marble from the Apuan Alps.',
+    },
+  },
+
+  {
+    name: "mappa",
+    image: "./points/mappa.jpeg",
+    icon: "map",
+    position: { latitude: 44.33026438145921, longitude: 9.38056468963623 },
+    text: {
+      it:
+        "Dal punto di vista più specificamente geologico le ardesie fanno parte di una formazione costituita da diversi litotipi, denominata in letteratura come «Membro delle Ardesie di M. Verzi» e formata da alternanze di marne scistose, che sono le ardesie vere e proprie, in strati e bancate, i cui spessori oscillano da pochi decimetri a più di dieci metri, di scisti argillosi finemente siltoso-micacei, di colore variabile dal grigio verdastro al grigio plumbeo, in strati di spessore molto variabile, e di arenarie quarzoso-micacee, grigiastre, molto compatte, in strati di spessore generalmente inferiore al metro (Brandolini, 1988, p.35).",
+      eng:
+        'From a more specifically geological point of view, the slates are part of a formation made up of different lithotypes, referred to in the literature as the "Member of the M. Verzi Slates". Verzi" and formed by alternating schistose marls, which are the actual slates, in layers and banks, whose thicknesses range from a few decimeters to more than ten metres, finely silty-micaceous clay schists, varying in colour from greenish grey to leaden grey, in layers of highly variable thickness, and very compact greyish quartzaceous-micaceous sandstones, in layers generally less than one metre thick (Brandolini, 1988, p.35 ).',
+    },
+  },
 ];
 
 export default church;

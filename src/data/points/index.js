@@ -40,75 +40,74 @@ export const pointsByCategories = [
   {
     id: 1,
     name: {
-      it: "Categoria 1",
-      eng: "Category 1",
+      it: "Ardesia",
+      eng: "Salte",
     },
-    legend: ["view", "church", "chapel", "mill", "fauna", "flora", "monument"],
-    points: [
-      ...view,
-      ...church,
-      ...chapel,
-      //mill,
-      //fauna
-      ...flora,
-      ...monument,
-    ],
+    legend: ["cave", "gardening", "mill"],
+    points: [...cave, ...cave2, ...gardening], //mill
   },
-
   {
     id: 2,
     name: {
-      it: "Categoria 2",
-      eng: "Category 2",
+      it: "Cultura",
+      eng: "Culture",
     },
-    legend: ["cave", "gardening"],
-    points: [...cave, ...cave2, ...gardening],
+    legend: ["church", "chapel", "monument", "resistance"],
+    points: [...church, ...chapel, ...monument, ...resistance],
   },
 
   {
     id: 3,
     name: {
-      it: "Categoria 3",
-      eng: "Category 3",
+      it: "Natura",
+      eng: "Nature",
     },
-    legend: ["resistance"],
-    points: [...resistance],
+    legend: ["view", "fauna", "flora"],
+    points: [
+      ...view,
+      //fauna
+      ...flora,
+    ],
   },
 
   {
     id: 4,
     name: {
-      it: "Categoria 4",
-      eng: "Category 4",
-    },
-    legend: ["drinking", "cicle", "sentiero", "picnic", "camping"],
-    points: [
-      ...drinking,
-      //cicle
-      //sentieroliguria
-      //picnic
-      ...camping,
-    ],
-  },
-
-  {
-    id: 5,
-    name: {
-      it: "Categoria 5",
-      eng: "Category 5",
+      it: "Emergenza",
+      eng: "Emergency",
     },
     legend: ["hospital", "pharmacy", "redcross", "firefighter"],
     points: [...hospital, ...pharmacy, ...redcross, ...firefighter],
   },
 
   {
-    id: 6,
+    id: 5,
     name: {
-      it: "Categoria 6",
-      eng: "Category 6",
+      it: "Info",
+      eng: "Info",
     },
-    legend: ["iat", "trainstation", "bus", "harbour"],
-    points: [...iat, ...trainStation, ...busStation, ...harbour],
+    legend: [
+      "iat",
+      "trainstation",
+      "bus",
+      "harbour",
+      "drinking",
+      "cicle",
+      "sentiero",
+      "picnic",
+      "camping",
+    ],
+    points: [
+      ...iat,
+      ...trainStation,
+      ...busStation,
+      ...harbour,
+      ...drinking,
+      //cicle
+      //sentieroliguria
+      //picnic
+      ...camping,
+    ],
   },
 ];
 
